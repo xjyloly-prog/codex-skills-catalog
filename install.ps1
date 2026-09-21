@@ -87,6 +87,7 @@ if ($List) {
 }
 
 $mirrors = @(
+    "https://ghproxy.net/https://github.com",
     "https://gh-proxy.com/https://github.com",
     "https://github.com"
 )
