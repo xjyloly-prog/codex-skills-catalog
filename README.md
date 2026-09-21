@@ -23,13 +23,13 @@ D:\CodexSkills\_tools\skill-mount.ps1 -Action unmount -All
 
 ## 目录 / Contents
 
-1. [竞赛策划与申报 / Competition proposals](#1-竞赛策划与申报-competition-proposals) — 15 个
-2. [演示与路演 / Presentations](#2-演示与路演-presentations) — 5 个
-3. [数学建模 / Mathematical modeling](#3-数学建模-mathematical-modeling) — 48 个
-4. [三维建模 / 3D modeling (Blender)](#4-三维建模-3d-modeling-blender) — 60 个
-5. [图表与可视化 / Charts & diagrams](#5-图表与可视化-charts-diagrams) — 3 个
-6. [网页与设计原型 / Web & design prototypes](#6-网页与设计原型-web-design-prototypes) — 122 个
-7. [文档与办公 / Documents & office](#7-文档与办公-documents-office) — 10 个
+1. [竞赛策划与申报 / Competition proposals](#1-竞赛策划与申报--competition-proposals) — 15 个
+2. [演示与路演 / Presentations](#2-演示与路演--presentations) — 5 个
+3. [数学建模 / Mathematical modeling](#3-数学建模--mathematical-modeling) — 48 个
+4. [三维建模 / 3D modeling (Blender)](#4-三维建模--3d-modeling-blender) — 60 个
+5. [图表与可视化 / Charts & diagrams](#5-图表与可视化--charts--diagrams) — 3 个
+6. [网页与设计原型 / Web & design prototypes](#6-网页与设计原型--web--design-prototypes) — 122 个
+7. [文档与办公 / Documents & office](#7-文档与办公--documents--office) — 10 个
 
 另外包含：[Agents 角色分工](#agents-角色分工--agent-roles) · [依赖清单](#依赖清单--dependencies) · [来源与许可](#来源与许可--sources--licenses) · [免责声明](#免责声明--disclaimer)
 
