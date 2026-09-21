@@ -72,7 +72,32 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 .\install.ps1 -Category math      # 从原仓库安装数模类全部 48 个
 ```
 
-**方式一：一键安装脚本（推荐，覆盖全部 220 个技能）**
+**方式一：直接在仓库里取（推荐，无需下载压缩包）**
+
+技能文件就在本仓库的 `skills/` 目录下，按用途分好了文件夹，可以直接浏览、clone 或 fork：
+
+| 目录 | 内容 | 技能数 |
+|---|---|---|
+| [`skills/proposal/`](./skills/proposal/) | 策划书与申报材料 | 11 |
+| [`skills/ppt/`](./skills/ppt/) | PPT 与路演 | 5 |
+| [`skills/math/`](./skills/math/) | 数学建模 | 12 |
+| [`skills/blender/`](./skills/blender/) | 三维建模 Blender | 27 |
+| [`skills/charts/`](./skills/charts/) | 图表与可视化 | 2 |
+| [`skills/design/`](./skills/design/) | 网页与设计原型 | 122 |
+
+```bash
+# 完整克隆（约 100 MB）
+git clone https://github.com/xjyloly-prog/codex-skills-catalog.git
+
+# 只要某一个类别：把对应目录复制到技能目录即可
+#   Windows:  %USERPROFILE%\.codex\skills\
+#   macOS/Linux:  ~/.codex/skills/
+cp -r codex-skills-catalog/skills/ppt/* ~/.codex/skills/
+```
+
+每个技能是一个独立目录（里面有 `SKILL.md`），想只留一个就把那个目录复制走；不想要了删掉目录即可。各上游许可证原文在 [`_licenses/`](./_licenses/)。
+
+**方式二：一键安装脚本（覆盖全部 220 个技能，含仓库里没有的那些）**
 
 ```powershell
 # 下载本仓库后，在仓库目录里运行
@@ -85,7 +110,7 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 脚本会**从每个技能的原仓库直接下载**再复制到你本机，本仓库不转发文件；网络不通时自动切换镜像重试。
 
-**方式二：离线压缩包（179 个可再分发技能，约 75 MB）**
+**方式三：离线压缩包（不想 clone 就用这个）**
 
 - 下载地址：[Releases · Codex Skills Pack](https://github.com/xjyloly-prog/codex-skills-catalog/releases/latest)
 - 解压后把 `skills/` 里的目录复制到 `%USERPROFILE%\.codex\skills\`
@@ -146,6 +171,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 写策划书、商业计划书、申报书、软著材料，以及配套的 Word 排版与网页原型。
 
+**📁 仓库目录：[`skills/proposal/`](./skills/proposal/)**（11 个技能，可直接浏览或复制）
+
 **📦 打包下载：[pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip)**（13.0 MB，含 11 个技能；另有 4 个因许可证未收录，见表格来源链接）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
@@ -172,6 +199,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 路演、答辩、汇报用的 PPT：HTML 演示、可编辑 PPTX、模板套用。
 
+**📁 仓库目录：[`skills/ppt/`](./skills/ppt/)**（5 个技能，可直接浏览或复制）
+
 **📦 打包下载：[pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip)**（24.1 MB，含 5 个技能）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
@@ -187,6 +216,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 ## 3. 数学建模 / Mathematical modeling
 
 从读题、建模、编程、作图到论文撰写与模拟评审的完整链条。
+
+**📁 仓库目录：[`skills/math/`](./skills/math/)**（12 个技能，可直接浏览或复制）
 
 **📦 打包下载：[pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip)**（1.1 MB，含 12 个技能；另有 36 个因许可证未收录，见表格来源链接）
 
@@ -248,6 +279,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 产品外观建模、材质渲染、动画与导出。需要时启用，用完关掉。
 
 **说明**：下表包含两套内容重叠的版本——`blender-design` 是**插件版（33 个，当前使用）**，`blender-skills` 是**独立技能包（27 个，备用）**。实际写进目录的是插件版，独立包作为离线备份保留。
+
+**📁 仓库目录：[`skills/blender/`](./skills/blender/)**（27 个技能，可直接浏览或复制）
 
 **📦 打包下载：[pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip)**（0.1 MB，含 27 个技能）
 
@@ -320,6 +353,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 架构图、流程图、数据图表与 SVG 设计系统。
 
+**📁 仓库目录：[`skills/charts/`](./skills/charts/)**（2 个技能，可直接浏览或复制）
+
 **📦 打包下载：[pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip)**（2.0 MB，含 2 个技能；另有 1 个因许可证未收录，见表格来源链接）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
@@ -333,6 +368,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 ## 6. 网页与设计原型 / Web & design prototypes
 
 122 个网页 / 幻灯片 / 海报模板（来自 open-design），按需启用。
+
+**📁 仓库目录：[`skills/design/`](./skills/design/)**（122 个技能，可直接浏览或复制）
 
 **📦 打包下载：[pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip)**（35.0 MB，含 122 个技能）
 
