@@ -6,7 +6,9 @@
 
   Usage:
     .\install.ps1 -List                 # show what is available
+    .\install.ps1 -ListCategories       # show the downloadable category packs
     .\install.ps1                       # install everything
+    .\install.ps1 -Category ppt         # install one category
     .\install.ps1 -Only innovation-proposal,qu-ai-wei
     .\install.ps1 -Bundle open-design   # install one source pack
     .\install.ps1 -Dest "D:\CodexSkills" -Link   # store on another drive + junction
@@ -19,10 +21,12 @@
 param(
     [string[]]$Only,
     [string[]]$Bundle,
+    [string[]]$Category,
     [string]$Dest = (Join-Path $env:USERPROFILE ".codex\skills"),
     [string]$Manifest,
     [string]$WorkDir = (Join-Path $env:TEMP "codex-skills-install"),
     [switch]$List,
+    [switch]$ListCategories,
     [switch]$Link,
     [switch]$Force
 )
@@ -40,6 +44,33 @@ if (-not $Manifest) {
 $manifestData = Get-Content -LiteralPath $Manifest -Raw -Encoding UTF8 | ConvertFrom-Json
 $skills = $manifestData.skills
 $bundles = $manifestData.bundles
+
+# category -> bundles. Categories mirror the downloadable packs in the README.
+$CATEGORY_MAP = [ordered]@{
+    proposal = @("innovation-proposal", "qu-ai-wei", "official-document-drafting",
+                 "software-copyright-materials", "pandoc-docx-template", "doc-coauthoring",
+                 "frontend-design", "web-artifacts-builder")
+    ppt      = @("ppt-agent-skills", "ppt-agent-skill", "consulting-deck",
+                 "academic-pptx-skill", "ppt-template-fill")
+    math     = @("math-modeling-skill", "MathModelAgent", "bzd-math-modeling-skills",
+                 "mathodology", "AutoMCM-Pro")
+    blender  = @("blender-skills")
+    charts   = @("archify", "lieflat-charts", "svg-design-system")
+    design   = @("open-design")
+    office   = @()   # Codex 自带，无需下载
+}
+
+if ($ListCategories) {
+    $rows = foreach ($key in $CATEGORY_MAP.Keys) {
+        $names = $CATEGORY_MAP[$key]
+        $count = ($skills | Where-Object { $names -contains $_.bundle }).Count
+        $pack = if ($key -eq "office" -or $count -eq 0) { "（无需下载）" }
+                else { "https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-$key.zip" }
+        [pscustomobject]@{ Category = $key; Skills = $count; Pack = $pack }
+    }
+    $rows | Format-Table -AutoSize
+    return
+}
 
 if ($List) {
     $bundles | Sort-Object bundle | ForEach-Object {
@@ -117,6 +148,13 @@ function Install-Bundle {
 $selected = $skills
 if ($Only) { $selected = $selected | Where-Object { $Only -contains $_.name } }
 if ($Bundle) { $selected = $selected | Where-Object { $Bundle -contains $_.bundle } }
+if ($Category) {
+    $wantedBundles = foreach ($key in $Category) {
+        if (-not $CATEGORY_MAP.Contains($key)) { throw "unknown category: $key" }
+        $CATEGORY_MAP[$key]
+    }
+    $selected = $selected | Where-Object { $wantedBundles -contains $_.bundle }
+}
 if (-not $selected) { throw "nothing selected (use -List to see available names)" }
 
 New-Item -ItemType Directory -Force -Path $Dest | Out-Null
