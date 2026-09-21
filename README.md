@@ -28,30 +28,32 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 > 一句话：**想做什么，就下哪一类**。每类都提供打包下载；只有极少数技能因为上游没开放许可，需要单独从原仓库获取，下面会标注清楚。
 
+> ⚠️ **国内网络提示**：GitHub 的 release 下载会跳转到 `objects.githubusercontent.com`，这个域名在部分网络下不可达（表现为「页面能打开、下载没反应」）。每个下载链接都附了**镜像**，直连失败时点镜像即可。
+
 ### 按用途挑包 / Pick by what you want to do
 
 | 我想做… | 下载 | 包里有什么 |
 |---|---|---|
-| 写策划书、商业计划书、申报书 | [pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip) · 13.0 MB | 策划书与申报材料：11 个技能 |
-| 做路演 / 答辩 / 汇报 PPT | [pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip) · 24.1 MB | PPT 与路演：5 个技能 |
-| 打数学建模比赛（国赛 / 美赛） | [pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip) · 1.1 MB | 数学建模：12 个技能 |
-| 给产品建模、出渲染图 | [pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip) · 0.1 MB | 三维建模 Blender：27 个技能 |
-| 画架构图、流程图、数据图表 | [pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip) · 2.0 MB | 图表与可视化：2 个技能 |
-| 做网页原型、海报、幻灯片模板 | [pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip) · 35.0 MB | 网页与设计原型：122 个技能 |
+| 写策划书、商业计划书、申报书 | [pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip) · 13.0 MB | 策划书与申报材料：11 个技能 |
+| 做路演 / 答辩 / 汇报 PPT | [pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip) · 24.1 MB | PPT 与路演：5 个技能 |
+| 打数学建模比赛（国赛 / 美赛） | [pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip) · 1.1 MB | 数学建模：12 个技能 |
+| 给产品建模、出渲染图 | [pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip) · 0.1 MB | 三维建模 Blender：27 个技能 |
+| 画架构图、流程图、数据图表 | [pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip) · 2.0 MB | 图表与可视化：2 个技能 |
+| 做网页原型、海报、幻灯片模板 | [pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip) · 35.0 MB | 网页与设计原型：122 个技能 |
 | 写 Word / PDF / PPT / 表格 | 无需下载（Codex 自带） | Word / PDF / PPT / 表格 / LaTeX |
 
-**想要全部？** 下载 [全量包 codex-skills-pack-v1.0.0.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.0.0/codex-skills-pack-v1.0.0.zip)（179 个技能，75.3 MB）。
+**想要全部？** 下载 [全量包 codex-skills-pack-v1.0.0.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.0.0/codex-skills-pack-v1.0.0.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.0.0/codex-skills-pack-v1.0.0.zip)（179 个技能，75.3 MB）。
 
 ### 分类包一览 / Category packs
 
 | 类别 | 技能数 | 打包下载 | 未收录 | 说明 |
 |---|---|---|---|---|
-| 策划书与申报材料 / Proposals & applications | 11 | [pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip) · 13.0 MB | 4 | 4 个因许可证未收录，需从原仓库获取 |
-| PPT 与路演 / Presentations | 5 | [pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip) · 24.1 MB | 0 | 全部可下载 |
-| 数学建模 / Mathematical modeling | 12 | [pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip) · 1.1 MB | 36 | 36 个因许可证未收录，需从原仓库获取 |
-| 三维建模 Blender / 3D modeling | 27 | [pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip) · 0.1 MB | 0 | 全部可下载 |
-| 图表与可视化 / Charts & diagrams | 2 | [pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip) · 2.0 MB | 1 | 1 个因许可证未收录，需从原仓库获取 |
-| 网页与设计原型 / Web & design prototypes | 122 | [pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip) · 35.0 MB | 0 | 全部可下载 |
+| 策划书与申报材料 / Proposals & applications | 11 | [pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip) · 13.0 MB | 4 | 4 个因许可证未收录，需从原仓库获取 |
+| PPT 与路演 / Presentations | 5 | [pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip) · 24.1 MB | 0 | 全部可下载 |
+| 数学建模 / Mathematical modeling | 12 | [pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip) · 1.1 MB | 36 | 36 个因许可证未收录，需从原仓库获取 |
+| 三维建模 Blender / 3D modeling | 27 | [pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip) · 0.1 MB | 0 | 全部可下载 |
+| 图表与可视化 / Charts & diagrams | 2 | [pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip) · 2.0 MB | 1 | 1 个因许可证未收录，需从原仓库获取 |
+| 网页与设计原型 / Web & design prototypes | 122 | [pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip) · 35.0 MB | 0 | 全部可下载 |
 | 文档与办公 / Documents & office | 0 | 无需下载 | 0 | Codex 自带，装了就有 |
 
 ### 未收录的怎么办 / When a skill is not in the pack
@@ -144,7 +146,7 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 写策划书、商业计划书、申报书、软著材料，以及配套的 Word 排版与网页原型。
 
-**📦 打包下载：[pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip)**（13.0 MB，含 11 个技能；另有 4 个因许可证未收录，见表格来源链接）
+**📦 打包下载：[pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip)**（13.0 MB，含 11 个技能；另有 4 个因许可证未收录，见表格来源链接）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -170,7 +172,7 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 路演、答辩、汇报用的 PPT：HTML 演示、可编辑 PPTX、模板套用。
 
-**📦 打包下载：[pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip)**（24.1 MB，含 5 个技能）
+**📦 打包下载：[pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip)**（24.1 MB，含 5 个技能）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -186,7 +188,7 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 从读题、建模、编程、作图到论文撰写与模拟评审的完整链条。
 
-**📦 打包下载：[pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip)**（1.1 MB，含 12 个技能；另有 36 个因许可证未收录，见表格来源链接）
+**📦 打包下载：[pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip)**（1.1 MB，含 12 个技能；另有 36 个因许可证未收录，见表格来源链接）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -247,7 +249,7 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 **说明**：下表包含两套内容重叠的版本——`blender-design` 是**插件版（33 个，当前使用）**，`blender-skills` 是**独立技能包（27 个，备用）**。实际写进目录的是插件版，独立包作为离线备份保留。
 
-**📦 打包下载：[pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip)**（0.1 MB，含 27 个技能）
+**📦 打包下载：[pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip)**（0.1 MB，含 27 个技能）
 
 > Blender 相关：默认**已关闭**，要做三维建模时再启用。
 
@@ -318,7 +320,7 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 架构图、流程图、数据图表与 SVG 设计系统。
 
-**📦 打包下载：[pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip)**（2.0 MB，含 2 个技能；另有 1 个因许可证未收录，见表格来源链接）
+**📦 打包下载：[pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip)**（2.0 MB，含 2 个技能；另有 1 个因许可证未收录，见表格来源链接）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -332,7 +334,7 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 122 个网页 / 幻灯片 / 海报模板（来自 open-design），按需启用。
 
-**📦 打包下载：[pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip)**（35.0 MB，含 122 个技能）
+**📦 打包下载：[pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip)**（35.0 MB，含 122 个技能）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
