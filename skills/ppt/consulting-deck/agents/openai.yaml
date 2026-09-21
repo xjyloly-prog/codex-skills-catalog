@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consulting Deck by Peng"
+  short_description: "将复杂材料转化为证据可追溯、原生可编辑的麦肯锡风格 PowerPoint"
+  default_prompt: "Use $consulting-deck to choose the right presentation mode, preserve material source exhibits, plan evidence-first charts with the Vizro visual vocabulary, and turn these materials into an executive-ready, editable consulting presentation."

@@ -1,0 +1,43 @@
+{
+  "id": "research-analytical",
+  "name": "Research Analytical",
+  "mode": "light",
+  "colors": {
+    "paper": "#FFFFFF",
+    "surface": "#F4F6F8",
+    "ink": "#111820",
+    "navy": "#0B2D52",
+    "accent": "#1687C7",
+    "secondary": "#67C5E8",
+    "muted": "#66717D",
+    "line": "#C7CED6",
+    "soft": "#E8EDF2",
+    "signal": "#D94B3D"
+  },
+  "fonts": {
+    "zh_heading": ["PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC"],
+    "zh_body": ["PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC"],
+    "latin": ["Aptos", "Arial", "Helvetica Neue"]
+  },
+  "grid": {
+    "columns": 16,
+    "margin_in": 0.5,
+    "safe_edge_in": 0.38,
+    "base_spacing_pt": 4,
+    "title_band_in": 0.72,
+    "source_band_in": 0.34
+  },
+  "effects": {
+    "shadow": "none",
+    "radius": 0,
+    "gradient": "none",
+    "line_pt": 0.65
+  },
+  "exhibit": {
+    "minimum_canvas_share": 0.55,
+    "maximum_canvas_share": 0.75,
+    "direct_labels": true,
+    "show_sample": true,
+    "show_source": true
+  }
+}

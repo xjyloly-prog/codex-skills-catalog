@@ -1,0 +1,25 @@
+{
+  "schema": "consulting_deck_examples.v1",
+  "generated_with": "consulting-deck 0.2.0",
+  "data_policy": "All displayed values are synthetic demonstration data and are not real-world benchmarks or forecasts.",
+  "examples": [
+    {
+      "id": "ai-value-realization",
+      "title": "AI Value Realization",
+      "story": "Concentrate an AI portfolio on repeatable workflows and the operating model required to scale them.",
+      "slides": 6,
+      "native_charts": 4,
+      "pptx": "ai-value-realization/ai-value-realization-demo.pptx",
+      "preview": "ai-value-realization/montage.png"
+    },
+    {
+      "id": "retail-banking-growth",
+      "title": "Retail Banking Growth",
+      "story": "Shift growth management from acquisition volume to primary relationships and high-potential journeys.",
+      "slides": 6,
+      "native_charts": 4,
+      "pptx": "retail-banking-growth/retail-banking-growth-demo.pptx",
+      "preview": "retail-banking-growth/montage.png"
+    }
+  ]
+}

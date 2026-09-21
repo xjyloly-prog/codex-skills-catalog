@@ -1,0 +1,33 @@
+{
+  "id": "swiss-analytical",
+  "name": "Swiss Analytical",
+  "mode": "light",
+  "colors": {
+    "paper": "#FFFFFF",
+    "surface": "#F5F7F9",
+    "ink": "#101820",
+    "navy": "#0B2138",
+    "accent": "#245BDB",
+    "muted": "#66707A",
+    "line": "#C9D0D7",
+    "soft": "#E9EDF1",
+    "signal": "#F26B38"
+  },
+  "fonts": {
+    "zh_heading": ["Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei"],
+    "zh_body": ["Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei"],
+    "latin": ["Helvetica Neue", "Arial", "Aptos"]
+  },
+  "grid": {
+    "columns": 16,
+    "margin_in": 0.5,
+    "safe_edge_in": 0.4,
+    "base_spacing_pt": 4
+  },
+  "effects": {
+    "shadow": "none",
+    "radius": 0,
+    "gradient": "none",
+    "line_pt": 0.75
+  }
+}

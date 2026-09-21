@@ -1,0 +1,24 @@
+{
+  "id": "peng",
+  "name": "Peng · 智珠在睿",
+  "enabled_by_default": false,
+  "display_name": "Peng",
+  "author_mark": "智珠在睿",
+  "logo": null,
+  "colors": {
+    "primary": "#0B2A4A",
+    "accent": "#1769E0"
+  },
+  "footer": {
+    "show_brand": true,
+    "brand_text": "Peng · 智珠在睿",
+    "show_page_number": true,
+    "show_source": true,
+    "confidentiality_label": ""
+  },
+  "restrictions": [
+    "Activate only after an explicit user request",
+    "Keep the author mark visually subordinate to the deck subject",
+    "Do not imply affiliation with the source publisher"
+  ]
+}
