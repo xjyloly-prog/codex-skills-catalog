@@ -1,0 +1,2414 @@
+{
+ "generatedFrom": "D:\\CodexSkills",
+ "bundles": [
+  {
+   "bundle": "innovation-proposal",
+   "repo": "xwu43361-sys/innovation-proposal",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "qu-ai-wei",
+   "repo": "LifelongLazyLearner/qu-ai-wei",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "official-document-drafting",
+   "repo": "zhaohui-yang/official-document-drafting",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 8
+  },
+  {
+   "bundle": "software-copyright-materials",
+   "repo": "Fokkyp/SoftwareCopyright-Skill",
+   "ref": "main",
+   "prefixInRepo": "software-copyright-materials",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "ppt-agent-skills",
+   "repo": "sunbigfly/ppt-agent-skills",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "ppt-agent-skill",
+   "repo": "Akxan/ppt-agent-skill",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "academic-pptx-skill",
+   "repo": "Gabberflast/academic-pptx-skill",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "ppt-template-fill",
+   "repo": "xiongwenhao112/ppt-template-fill",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "mathodology",
+   "repo": "sweetcornna/mathodology",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 8
+  },
+  {
+   "bundle": "AutoMCM-Pro",
+   "repo": "RealSeaberry/AutoMCM-Pro",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 4
+  },
+  {
+   "bundle": "archify",
+   "repo": "tt-a1i/archify",
+   "ref": "main",
+   "prefixInRepo": "archify",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "svg-design-system",
+   "repo": "VioletScar-Hui/Svg-design-system",
+   "ref": "main",
+   "prefixInRepo": "svg-design-system",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "consulting-deck",
+   "repo": "zairuilab/consulting-deck",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "skillCount": 27
+  },
+  {
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "skillCount": 122
+  },
+  {
+   "bundle": "pandoc-docx-template",
+   "repo": "Achuan-2/pandoc_docx_template",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "NONE",
+   "redistributable": false,
+   "skillCount": 1
+  },
+  {
+   "bundle": "doc-coauthoring",
+   "repo": "anthropics/skills",
+   "ref": "main",
+   "prefixInRepo": "skills/doc-coauthoring",
+   "license": "NONE",
+   "redistributable": false,
+   "skillCount": 1
+  },
+  {
+   "bundle": "frontend-design",
+   "repo": "anthropics/skills",
+   "ref": "main",
+   "prefixInRepo": "skills/frontend-design",
+   "license": "NONE",
+   "redistributable": false,
+   "skillCount": 1
+  },
+  {
+   "bundle": "web-artifacts-builder",
+   "repo": "anthropics/skills",
+   "ref": "main",
+   "prefixInRepo": "skills/web-artifacts-builder",
+   "license": "NONE",
+   "redistributable": false,
+   "skillCount": 1
+  },
+  {
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "NONE",
+   "redistributable": false,
+   "skillCount": 10
+  },
+  {
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "NONE",
+   "redistributable": false,
+   "skillCount": 10
+  },
+  {
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "NONE",
+   "redistributable": false,
+   "skillCount": 16
+  },
+  {
+   "bundle": "lieflat-charts",
+   "repo": "larashero3-dotcom/lieflat-charts",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "PolyForm-Noncommercial-1.0.0",
+   "redistributable": false,
+   "skillCount": 1
+  }
+ ],
+ "skills": [
+  {
+   "name": "academic-pptx",
+   "bundle": "academic-pptx-skill",
+   "repo": "Gabberflast/academic-pptx-skill",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\academic-pptx-skill",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "archify",
+   "bundle": "archify",
+   "repo": "tt-a1i/archify",
+   "ref": "main",
+   "repoPath": "archify",
+   "localPath": "D:\\CodexSkills\\archify",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "auto-mcm",
+   "bundle": "AutoMCM-Pro",
+   "repo": "RealSeaberry/AutoMCM-Pro",
+   "ref": "main",
+   "repoPath": ".agents/skills/auto-mcm",
+   "localPath": "D:\\CodexSkills\\AutoMCM-Pro\\.agents\\skills\\auto-mcm",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "cumcm-master",
+   "bundle": "AutoMCM-Pro",
+   "repo": "RealSeaberry/AutoMCM-Pro",
+   "ref": "main",
+   "repoPath": ".claude/skills/cumcm-master",
+   "localPath": "D:\\CodexSkills\\AutoMCM-Pro\\.claude\\skills\\cumcm-master",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "draw-image",
+   "bundle": "AutoMCM-Pro",
+   "repo": "RealSeaberry/AutoMCM-Pro",
+   "ref": "main",
+   "repoPath": ".claude/skills/draw-image",
+   "localPath": "D:\\CodexSkills\\AutoMCM-Pro\\.claude\\skills\\draw-image",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "mcm-master",
+   "bundle": "AutoMCM-Pro",
+   "repo": "RealSeaberry/AutoMCM-Pro",
+   "ref": "main",
+   "repoPath": ".claude/skills/mcm-master",
+   "localPath": "D:\\CodexSkills\\AutoMCM-Pro\\.claude\\skills\\mcm-master",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "openspec-apply-change",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": ".agents/skills/openspec-apply-change",
+   "localPath": "D:\\CodexSkills\\blender-skills\\.agents\\skills\\openspec-apply-change",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "openspec-archive-change",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": ".agents/skills/openspec-archive-change",
+   "localPath": "D:\\CodexSkills\\blender-skills\\.agents\\skills\\openspec-archive-change",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "openspec-explore",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": ".agents/skills/openspec-explore",
+   "localPath": "D:\\CodexSkills\\blender-skills\\.agents\\skills\\openspec-explore",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "openspec-propose",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": ".agents/skills/openspec-propose",
+   "localPath": "D:\\CodexSkills\\blender-skills\\.agents\\skills\\openspec-propose",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-background-jobs",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-background-jobs",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-background-jobs",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-character-animation",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-character-animation",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-character-animation",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-character-rigging",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-character-rigging",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-character-rigging",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-cinematography",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-cinematography",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-cinematography",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-curves",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-curves",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-curves",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-design",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-design",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-design",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-export",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-export",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-export",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-grease-pencil",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-grease-pencil",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-grease-pencil",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-hair",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-hair",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-hair",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-hard-surface",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-hard-surface",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-hard-surface",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-inspect",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-inspect",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-inspect",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-mcp-setup",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-mcp-setup",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-mcp-setup",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-preview",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-preview",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-preview",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-procedural-modeling",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-procedural-modeling",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-procedural-modeling",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-quality-validation",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-quality-validation",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-quality-validation",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-render-compositing",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-render-compositing",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-render-compositing",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-retopology",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-retopology",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-retopology",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-scene-assembly",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-scene-assembly",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-scene-assembly",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-sculpt-surface",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-sculpt-surface",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-sculpt-surface",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-sequence-editing",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-sequence-editing",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-sequence-editing",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-simulation",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-simulation",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-simulation",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-tracking",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-tracking",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-tracking",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blender-uv-material",
+   "bundle": "blender-skills",
+   "repo": "full-aigc-skills/blender-skills",
+   "ref": "main",
+   "repoPath": "skills/blender-uv-material",
+   "localPath": "D:\\CodexSkills\\blender-skills\\skills\\blender-uv-material",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "bzd-modeling-workflow",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/总控类/bzd-modeling-workflow",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\总控类\\bzd-modeling-workflow",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-ai-usage-disclosure",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/生成类/bzd-ai-usage-disclosure",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\生成类\\bzd-ai-usage-disclosure",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-modeling-ideas",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/生成类/bzd-modeling-ideas",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\生成类\\bzd-modeling-ideas",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-problem-restatement",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/生成类/bzd-problem-restatement",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\生成类\\bzd-problem-restatement",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-problem-translator",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/生成类/bzd-problem-translator",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\生成类\\bzd-problem-translator",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-cumcm-school-awards",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/综合评审与自我定位类/bzd-cumcm-school-awards",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\综合评审与自我定位类\\bzd-cumcm-school-awards",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-review-paper",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/综合评审与自我定位类/bzd-review-paper",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\综合评审与自我定位类\\bzd-review-paper",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-abstract-checker",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/论文自查类/bzd-abstract-checker",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\论文自查类\\bzd-abstract-checker",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-model-assumption-checker",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/论文自查类/bzd-model-assumption-checker",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\论文自查类\\bzd-model-assumption-checker",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-model-dictionary",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/论文自查类/bzd-model-dictionary",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\论文自查类\\bzd-model-dictionary",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-model-solution-checker",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/论文自查类/bzd-model-solution-checker",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\论文自查类\\bzd-model-solution-checker",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-paper-aigc-auditor",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/论文自查类/bzd-paper-aigc-auditor",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\论文自查类\\bzd-paper-aigc-auditor",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-paper-format-checker",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/论文自查类/bzd-paper-format-checker",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\论文自查类\\bzd-paper-format-checker",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-problem-analysis-checker",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/论文自查类/bzd-problem-analysis-checker",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\论文自查类\\bzd-problem-analysis-checker",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-reference-appendix-checker",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/论文自查类/bzd-reference-appendix-checker",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\论文自查类\\bzd-reference-appendix-checker",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "bzd-symbol-notation-checker",
+   "bundle": "bzd-math-modeling-skills",
+   "repo": "BZDmathclub/bzd-math-modeling-skills",
+   "ref": "main",
+   "repoPath": "skills/论文自查类/bzd-symbol-notation-checker",
+   "localPath": "D:\\CodexSkills\\bzd-math-modeling-skills\\skills\\论文自查类\\bzd-symbol-notation-checker",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "consulting-deck",
+   "bundle": "consulting-deck",
+   "repo": "zairuilab/consulting-deck",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\consulting-deck",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "doc-coauthoring",
+   "bundle": "doc-coauthoring",
+   "repo": "anthropics/skills",
+   "ref": "main",
+   "repoPath": "skills/doc-coauthoring",
+   "localPath": "D:\\CodexSkills\\doc-coauthoring",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "frontend-design",
+   "bundle": "frontend-design",
+   "repo": "anthropics/skills",
+   "ref": "main",
+   "repoPath": "skills/frontend-design",
+   "localPath": "D:\\CodexSkills\\frontend-design",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "innovation-proposal",
+   "bundle": "innovation-proposal",
+   "repo": "xwu43361-sys/innovation-proposal",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\innovation-proposal",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "lieflat-charts",
+   "bundle": "lieflat-charts",
+   "repo": "larashero3-dotcom/lieflat-charts",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\lieflat-charts",
+   "license": "PolyForm-Noncommercial-1.0.0",
+   "redistributable": false
+  },
+  {
+   "name": "建模手",
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "repoPath": "references/roles/建模手",
+   "localPath": "D:\\CodexSkills\\math-modeling-skill\\references\\roles\\建模手",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "编程手",
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "repoPath": "references/roles/编程手",
+   "localPath": "D:\\CodexSkills\\math-modeling-skill\\references\\roles\\编程手",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "论文手",
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "repoPath": "references/roles/论文手",
+   "localPath": "D:\\CodexSkills\\math-modeling-skill\\references\\roles\\论文手",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "math-modeling",
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\math-modeling-skill",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "DOCX工具",
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "repoPath": "tools/docx",
+   "localPath": "D:\\CodexSkills\\math-modeling-skill\\tools\\docx",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "科研可视化工具",
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "repoPath": "tools/figure",
+   "localPath": "D:\\CodexSkills\\math-modeling-skill\\tools\\figure",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "LaTeX工具",
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "repoPath": "tools/latex",
+   "localPath": "D:\\CodexSkills\\math-modeling-skill\\tools\\latex",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "双引擎论文搜索",
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "repoPath": "tools/paper_search",
+   "localPath": "D:\\CodexSkills\\math-modeling-skill\\tools\\paper_search",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "pdf",
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "repoPath": "tools/pdf",
+   "localPath": "D:\\CodexSkills\\math-modeling-skill\\tools\\pdf",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "Excel工具",
+   "bundle": "math-modeling-skill",
+   "repo": "XiaoMaColtAI/math-modeling-skill",
+   "ref": "main",
+   "repoPath": "tools/xlsx",
+   "localPath": "D:\\CodexSkills\\math-modeling-skill\\tools\\xlsx",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "1start-mathmodel",
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "repoPath": "skills/1start-mathmodel",
+   "localPath": "D:\\CodexSkills\\MathModelAgent\\skills\\1start-mathmodel",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "2analysis-modeling",
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "repoPath": "skills/2analysis-modeling",
+   "localPath": "D:\\CodexSkills\\MathModelAgent\\skills\\2analysis-modeling",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "3coding-visual",
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "repoPath": "skills/3coding-visual",
+   "localPath": "D:\\CodexSkills\\MathModelAgent\\skills\\3coding-visual",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "4drawio",
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "repoPath": "skills/4drawio",
+   "localPath": "D:\\CodexSkills\\MathModelAgent\\skills\\4drawio",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "5writing",
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "repoPath": "skills/5writing",
+   "localPath": "D:\\CodexSkills\\MathModelAgent\\skills\\5writing",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "6verity",
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "repoPath": "skills/6verity",
+   "localPath": "D:\\CodexSkills\\MathModelAgent\\skills\\6verity",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "_references",
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "repoPath": "skills/_references",
+   "localPath": "D:\\CodexSkills\\MathModelAgent\\skills\\_references",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "doctor",
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "repoPath": "skills/doctor",
+   "localPath": "D:\\CodexSkills\\MathModelAgent\\skills\\doctor",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "mathmodel-figure-templates",
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "repoPath": "skills/mathmodel-figure-templates",
+   "localPath": "D:\\CodexSkills\\MathModelAgent\\skills\\mathmodel-figure-templates",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "typst-author",
+   "bundle": "MathModelAgent",
+   "repo": "jihe520/MathModelAgent",
+   "ref": "main",
+   "repoPath": "skills/typst-author",
+   "localPath": "D:\\CodexSkills\\MathModelAgent\\skills\\typst-author",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "mathodology-agent-pipeline",
+   "bundle": "mathodology",
+   "repo": "sweetcornna/mathodology",
+   "ref": "main",
+   "repoPath": ".claude/skills/mathodology-agent-pipeline",
+   "localPath": "D:\\CodexSkills\\mathodology\\.claude\\skills\\mathodology-agent-pipeline",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "mathodology-award-gates",
+   "bundle": "mathodology",
+   "repo": "sweetcornna/mathodology",
+   "ref": "main",
+   "repoPath": ".claude/skills/mathodology-award-gates",
+   "localPath": "D:\\CodexSkills\\mathodology\\.claude\\skills\\mathodology-award-gates",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "mathodology-dev-test-release",
+   "bundle": "mathodology",
+   "repo": "sweetcornna/mathodology",
+   "ref": "main",
+   "repoPath": ".claude/skills/mathodology-dev-test-release",
+   "localPath": "D:\\CodexSkills\\mathodology\\.claude\\skills\\mathodology-dev-test-release",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "mathodology-evidence-search",
+   "bundle": "mathodology",
+   "repo": "sweetcornna/mathodology",
+   "ref": "main",
+   "repoPath": ".claude/skills/mathodology-evidence-search",
+   "localPath": "D:\\CodexSkills\\mathodology\\.claude\\skills\\mathodology-evidence-search",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "mathodology-figure-presets",
+   "bundle": "mathodology",
+   "repo": "sweetcornna/mathodology",
+   "ref": "main",
+   "repoPath": ".claude/skills/mathodology-figure-presets",
+   "localPath": "D:\\CodexSkills\\mathodology\\.claude\\skills\\mathodology-figure-presets",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "mathodology-project-orientation",
+   "bundle": "mathodology",
+   "repo": "sweetcornna/mathodology",
+   "ref": "main",
+   "repoPath": ".claude/skills/mathodology-project-orientation",
+   "localPath": "D:\\CodexSkills\\mathodology\\.claude\\skills\\mathodology-project-orientation",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "mathodology-skill-authoring",
+   "bundle": "mathodology",
+   "repo": "sweetcornna/mathodology",
+   "ref": "main",
+   "repoPath": ".claude/skills/mathodology-skill-authoring",
+   "localPath": "D:\\CodexSkills\\mathodology\\.claude\\skills\\mathodology-skill-authoring",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "mathodology-whole-project",
+   "bundle": "mathodology",
+   "repo": "sweetcornna/mathodology",
+   "ref": "main",
+   "repoPath": ".claude/skills/mathodology-whole-project",
+   "localPath": "D:\\CodexSkills\\mathodology\\.claude\\skills\\mathodology-whole-project",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "official-document-drafting",
+   "bundle": "official-document-drafting",
+   "repo": "zhaohui-yang/official-document-drafting",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\official-document-drafting",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "doc-type-routing",
+   "bundle": "official-document-drafting",
+   "repo": "zhaohui-yang/official-document-drafting",
+   "ref": "main",
+   "repoPath": "skills/doc-type-routing",
+   "localPath": "D:\\CodexSkills\\official-document-drafting\\skills\\doc-type-routing",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "document-qa",
+   "bundle": "official-document-drafting",
+   "repo": "zhaohui-yang/official-document-drafting",
+   "ref": "main",
+   "repoPath": "skills/document-qa",
+   "localPath": "D:\\CodexSkills\\official-document-drafting\\skills\\document-qa",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "docx-export",
+   "bundle": "official-document-drafting",
+   "repo": "zhaohui-yang/official-document-drafting",
+   "ref": "main",
+   "repoPath": "skills/docx-export",
+   "localPath": "D:\\CodexSkills\\official-document-drafting\\skills\\docx-export",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "ministry-news-daily",
+   "bundle": "official-document-drafting",
+   "repo": "zhaohui-yang/official-document-drafting",
+   "ref": "main",
+   "repoPath": "skills/ministry-news-daily",
+   "localPath": "D:\\CodexSkills\\official-document-drafting\\skills\\ministry-news-daily",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "offline-prompt-packager",
+   "bundle": "official-document-drafting",
+   "repo": "zhaohui-yang/official-document-drafting",
+   "ref": "main",
+   "repoPath": "skills/offline-prompt-packager",
+   "localPath": "D:\\CodexSkills\\official-document-drafting\\skills\\offline-prompt-packager",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "policy-keyword-tracker",
+   "bundle": "official-document-drafting",
+   "repo": "zhaohui-yang/official-document-drafting",
+   "ref": "main",
+   "repoPath": "skills/policy-keyword-tracker",
+   "localPath": "D:\\CodexSkills\\official-document-drafting\\skills\\policy-keyword-tracker",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "skill-build",
+   "bundle": "official-document-drafting",
+   "repo": "zhaohui-yang/official-document-drafting",
+   "ref": "main",
+   "repoPath": "skills/skill-build",
+   "localPath": "D:\\CodexSkills\\official-document-drafting\\skills\\skill-build",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "8-bit-orbit-video-template",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/8-bit-orbit-video-template",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\8-bit-orbit-video-template",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "after-hours-editorial-template",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/after-hours-editorial-template",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\after-hours-editorial-template",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "audio-jingle",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/audio-jingle",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\audio-jingle",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "blog-post",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/blog-post",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\blog-post",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "clinical-case-report",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/clinical-case-report",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\clinical-case-report",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "critique",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/critique",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\critique",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "dashboard",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/dashboard",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\dashboard",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "dating-web",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/dating-web",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\dating-web",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "dcf-valuation",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/dcf-valuation",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\dcf-valuation",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "design-brief",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/design-brief",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\design-brief",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "digital-eguide",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/digital-eguide",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\digital-eguide",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "digits-fintech-swiss-template",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/digits-fintech-swiss-template",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\digits-fintech-swiss-template",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "docs-page",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/docs-page",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\docs-page",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "editorial-burgundy-principles-template",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/editorial-burgundy-principles-template",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\editorial-burgundy-principles-template",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "email-marketing",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/email-marketing",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\email-marketing",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "eng-runbook",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/eng-runbook",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\eng-runbook",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "field-notes-editorial-template",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/field-notes-editorial-template",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\field-notes-editorial-template",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "finance-report",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/finance-report",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\finance-report",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "flowai-live-dashboard-template",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/flowai-live-dashboard-template",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\flowai-live-dashboard-template",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "gamified-app",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/gamified-app",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\gamified-app",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "github-dashboard",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/github-dashboard",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\github-dashboard",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "magazine-web-ppt",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/guizang-ppt",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\guizang-ppt",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "hatch-pet",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/hatch-pet",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\hatch-pet",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "hr-onboarding",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/hr-onboarding",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\hr-onboarding",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-course-module",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-course-module",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-course-module",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-dir-key-nav-minimal",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-dir-key-nav-minimal",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-dir-key-nav-minimal",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-graphify-dark-graph",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-graphify-dark-graph",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-graphify-dark-graph",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-hermes-cyber-terminal",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-hermes-cyber-terminal",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-hermes-cyber-terminal",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-knowledge-arch-blueprint",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-knowledge-arch-blueprint",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-knowledge-arch-blueprint",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-obsidian-claude-gradient",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-obsidian-claude-gradient",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-obsidian-claude-gradient",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-pitch-deck",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-pitch-deck",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-pitch-deck",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-presenter-mode",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-presenter-mode-reveal",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-presenter-mode-reveal",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-product-launch",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-product-launch",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-product-launch",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-retro-quarterly-review",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-retro-quarterly-review",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-retro-quarterly-review",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-taste-brutalist",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-taste-brutalist",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-taste-brutalist",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-taste-editorial",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-taste-editorial",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-taste-editorial",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-tech-sharing",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-tech-sharing",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-tech-sharing",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-testing-safety-alert",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-testing-safety-alert",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-testing-safety-alert",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-weekly-report",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-weekly-report",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-weekly-report",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-xhs-pastel-card",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-xhs-pastel-card",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-xhs-pastel-card",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-xhs-post",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-xhs-post",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-xhs-post",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-xhs-white-editorial",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-xhs-white-editorial",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-xhs-white-editorial",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-8-bit-orbit",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-8-bit-orbit",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-8-bit-orbit",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-biennale-yellow",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-biennale-yellow",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-biennale-yellow",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-block-frame",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-block-frame",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-block-frame",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-blue-professional",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-blue-professional",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-blue-professional",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-bold-poster",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-bold-poster",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-bold-poster",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-broadside",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-broadside",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-broadside",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-capsule",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-capsule",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-capsule",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-cartesian",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-cartesian",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-cartesian",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-cobalt-grid",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-cobalt-grid",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-cobalt-grid",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-coral",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-coral",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-coral",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-creative-mode",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-creative-mode",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-creative-mode",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-daisy-days",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-daisy-days",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-daisy-days",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-editorial-tri-tone",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-editorial-tri-tone",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-editorial-tri-tone",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-grove",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-grove",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-grove",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-long-table",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-long-table",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-long-table",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-mat",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-mat",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-mat",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-monochrome",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-monochrome",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-monochrome",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-neo-grid-bold",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-neo-grid-bold",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-neo-grid-bold",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-peoples-platform",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-peoples-platform",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-peoples-platform",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-pin-and-paper",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-pin-and-paper",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-pin-and-paper",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-pink-script",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-pink-script",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-pink-script",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-playful",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-playful",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-playful",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-raw-grid",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-raw-grid",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-raw-grid",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-retro-windows",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-retro-windows",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-retro-windows",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-retro-zine",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-retro-zine",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-retro-zine",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-sakura-chroma",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-sakura-chroma",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-sakura-chroma",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-scatterbrain",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-scatterbrain",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-scatterbrain",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-signal",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-signal",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-signal",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-soft-editorial",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-soft-editorial",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-soft-editorial",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-stencil-tablet",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-stencil-tablet",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-stencil-tablet",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-studio",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-studio",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-studio",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "html-ppt-zhangzara-vellum",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/html-ppt-zhangzara-vellum",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\html-ppt-zhangzara-vellum",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "hyperframes",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/hyperframes",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\hyperframes",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "ib-pitch-book",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/ib-pitch-book",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\ib-pitch-book",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "image-poster",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/image-poster",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\image-poster",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "invoice",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/invoice",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\invoice",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "kami-deck",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/kami-deck",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\kami-deck",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "kami-landing",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/kami-landing",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\kami-landing",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "kanban-board",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/kanban-board",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\kanban-board",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "last30days",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/last30days",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\last30days",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "live-artifact",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/live-artifact",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\live-artifact",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "live-dashboard",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/live-dashboard",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\live-dashboard",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "magazine-poster",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/magazine-poster",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\magazine-poster",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "meeting-notes",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/meeting-notes",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\meeting-notes",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "mobile-app",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/mobile-app",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\mobile-app",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "mobile-onboarding",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/mobile-onboarding",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\mobile-onboarding",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "motion-frames",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/motion-frames",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\motion-frames",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "open-design-landing",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/open-design-landing",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\open-design-landing",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "open-design-landing-deck",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/open-design-landing-deck",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\open-design-landing-deck",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "orbit-general",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/orbit-general",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\orbit-general",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "orbit-github",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/orbit-github",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\orbit-github",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "orbit-gmail",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/orbit-gmail",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\orbit-gmail",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "orbit-linear",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/orbit-linear",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\orbit-linear",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "orbit-notion",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/orbit-notion",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\orbit-notion",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "pm-spec",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/pm-spec",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\pm-spec",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "pptx-html-fidelity-audit",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/pptx-html-fidelity-audit",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\pptx-html-fidelity-audit",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "pricing-page",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/pricing-page",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\pricing-page",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "release-notes-one-pager",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/release-notes-one-pager",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\release-notes-one-pager",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "replit-deck",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/replit-deck",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\replit-deck",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "saas-landing",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/saas-landing",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\saas-landing",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "simple-deck",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/simple-deck",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\simple-deck",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "social-carousel",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/social-carousel",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\social-carousel",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "social-media-dashboard",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/social-media-dashboard",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\social-media-dashboard",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "social-media-matrix-tracker-template",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/social-media-matrix-tracker-template",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\social-media-matrix-tracker-template",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "sprite-animation",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/sprite-animation",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\sprite-animation",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "swiss-creative-mode-template",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/swiss-creative-mode-template",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\swiss-creative-mode-template",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "swiss-user-research-video-template",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/swiss-user-research-video-template",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\swiss-user-research-video-template",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "team-okrs",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/team-okrs",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\team-okrs",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "trading-analysis-dashboard-template",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/trading-analysis-dashboard-template",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\trading-analysis-dashboard-template",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "tweaks",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/tweaks",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\tweaks",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "video-shortform",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/video-shortform",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\video-shortform",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "waitlist-page",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/waitlist-page",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\waitlist-page",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "web-prototype",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/web-prototype",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\web-prototype",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "web-prototype-taste-brutalist",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/web-prototype-taste-brutalist",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\web-prototype-taste-brutalist",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "web-prototype-taste-editorial",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/web-prototype-taste-editorial",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\web-prototype-taste-editorial",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "web-prototype-taste-soft",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/web-prototype-taste-soft",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\web-prototype-taste-soft",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "weekly-update",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/weekly-update",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\weekly-update",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "wireframe-sketch",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/wireframe-sketch",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\wireframe-sketch",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "x-research",
+   "bundle": "open-design",
+   "repo": "dunzic/open-design",
+   "ref": "main",
+   "repoPath": "skills/x-research",
+   "localPath": "D:\\CodexSkills\\open-design\\skills\\x-research",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "pandoc-docx-template",
+   "bundle": "pandoc-docx-template",
+   "repo": "Achuan-2/pandoc_docx_template",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\pandoc-docx-template",
+   "license": "NONE",
+   "redistributable": false
+  },
+  {
+   "name": "ppt-agent-alt",
+   "bundle": "ppt-agent-skill",
+   "repo": "Akxan/ppt-agent-skill",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\ppt-agent-skill",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "ppt-agent",
+   "bundle": "ppt-agent-skills",
+   "repo": "sunbigfly/ppt-agent-skills",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\ppt-agent-skills",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "ppt-template-fill",
+   "bundle": "ppt-template-fill",
+   "repo": "xiongwenhao112/ppt-template-fill",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\ppt-template-fill",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "qu-ai-wei",
+   "bundle": "qu-ai-wei",
+   "repo": "LifelongLazyLearner/qu-ai-wei",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\qu-ai-wei",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "software-copyright-materials",
+   "bundle": "software-copyright-materials",
+   "repo": "Fokkyp/SoftwareCopyright-Skill",
+   "ref": "main",
+   "repoPath": "software-copyright-materials",
+   "localPath": "D:\\CodexSkills\\software-copyright-materials",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "svg-design-system",
+   "bundle": "svg-design-system",
+   "repo": "VioletScar-Hui/Svg-design-system",
+   "ref": "main",
+   "repoPath": "svg-design-system",
+   "localPath": "D:\\CodexSkills\\svg-design-system",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "web-artifacts-builder",
+   "bundle": "web-artifacts-builder",
+   "repo": "anthropics/skills",
+   "ref": "main",
+   "repoPath": "skills/web-artifacts-builder",
+   "localPath": "D:\\CodexSkills\\web-artifacts-builder",
+   "license": "NONE",
+   "redistributable": false
+  }
+ ]
+}
