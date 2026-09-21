@@ -26,6 +26,50 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 ## 下载与安装 / Download & install
 
+> 一句话：**想做什么，就下哪一类**。每类都提供打包下载；只有极少数技能因为上游没开放许可，需要单独从原仓库获取，下面会标注清楚。
+
+### 按用途挑包 / Pick by what you want to do
+
+| 我想做… | 下载 | 包里有什么 |
+|---|---|---|
+| 写策划书、商业计划书、申报书 | [pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip) · 13.0 MB | 策划书与申报材料：11 个技能 |
+| 做路演 / 答辩 / 汇报 PPT | [pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip) · 24.1 MB | PPT 与路演：5 个技能 |
+| 打数学建模比赛（国赛 / 美赛） | [pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip) · 1.1 MB | 数学建模：12 个技能 |
+| 给产品建模、出渲染图 | [pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip) · 0.1 MB | 三维建模 Blender：27 个技能 |
+| 画架构图、流程图、数据图表 | [pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip) · 2.0 MB | 图表与可视化：2 个技能 |
+| 做网页原型、海报、幻灯片模板 | [pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip) · 35.0 MB | 网页与设计原型：122 个技能 |
+| 写 Word / PDF / PPT / 表格 | 无需下载（Codex 自带） | Word / PDF / PPT / 表格 / LaTeX |
+
+**想要全部？** 下载 [全量包 codex-skills-pack-v1.0.0.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.0.0/codex-skills-pack-v1.0.0.zip)（179 个技能，75.3 MB）。
+
+### 分类包一览 / Category packs
+
+| 类别 | 技能数 | 打包下载 | 未收录 | 说明 |
+|---|---|---|---|---|
+| 策划书与申报材料 / Proposals & applications | 11 | [pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip) · 13.0 MB | 4 | 4 个因许可证未收录，需从原仓库获取 |
+| PPT 与路演 / Presentations | 5 | [pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip) · 24.1 MB | 0 | 全部可下载 |
+| 数学建模 / Mathematical modeling | 12 | [pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip) · 1.1 MB | 36 | 36 个因许可证未收录，需从原仓库获取 |
+| 三维建模 Blender / 3D modeling | 27 | [pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip) · 0.1 MB | 0 | 全部可下载 |
+| 图表与可视化 / Charts & diagrams | 2 | [pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip) · 2.0 MB | 1 | 1 个因许可证未收录，需从原仓库获取 |
+| 网页与设计原型 / Web & design prototypes | 122 | [pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip) · 35.0 MB | 0 | 全部可下载 |
+| 文档与办公 / Documents & office | 0 | 无需下载 | 0 | Codex 自带，装了就有 |
+
+### 未收录的怎么办 / When a skill is not in the pack
+
+三类原因，处理方式不同：
+
+| 情况 | 涉及 | 怎么办 |
+|---|---|---|
+| 上游**没有许可证文件**（法律默认保留所有权利） | 数学建模类的 `bzd-*`、`math-modeling-skill`、`MathModelAgent`；`pandoc-docx-template`；`doc-coauthoring` 等 3 个 | 用 `install.ps1` 从原仓库安装，或点开对应技能那一行的来源链接自行下载 |
+| **非商业许可** | `lieflat-charts`（PolyForm Noncommercial 1.0.0） | 可自用，**禁止商业用途** |
+| **Codex 自带 / 专有** | Word、PDF、PPT、表格、LaTeX 等 14 个 | 无需下载，装好 Codex 就有 |
+
+> 数模类尤其要注意：`bzd-math-modeling-skills`（16 个）、`math-modeling-skill`（10 个）、`MathModelAgent`（10 个）都没有许可证，所以分类包 `pack-math.zip` 里只有 MIT 许可的 12 个（`mathodology` 8 个 + `AutoMCM-Pro` 4 个）。要装全套请用脚本：
+
+```powershell
+.\install.ps1 -Category math      # 从原仓库安装数模类全部 48 个
+```
+
 **方式一：一键安装脚本（推荐，覆盖全部 220 个技能）**
 
 ```powershell
@@ -100,6 +144,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 写策划书、商业计划书、申报书、软著材料，以及配套的 Word 排版与网页原型。
 
+**📦 打包下载：[pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-proposal.zip)**（13.0 MB，含 11 个技能；另有 4 个因许可证未收录，见表格来源链接）
+
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
 | 技能 / Skill | 中文说明 | English | 来源 / Source |
@@ -124,6 +170,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 路演、答辩、汇报用的 PPT：HTML 演示、可编辑 PPTX、模板套用。
 
+**📦 打包下载：[pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-ppt.zip)**（24.1 MB，含 5 个技能）
+
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
 | 技能 / Skill | 中文说明 | English | 来源 / Source |
@@ -137,6 +185,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 ## 3. 数学建模 / Mathematical modeling
 
 从读题、建模、编程、作图到论文撰写与模拟评审的完整链条。
+
+**📦 打包下载：[pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-math.zip)**（1.1 MB，含 12 个技能；另有 36 个因许可证未收录，见表格来源链接）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -196,6 +246,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 产品外观建模、材质渲染、动画与导出。需要时启用，用完关掉。
 
 **说明**：下表包含两套内容重叠的版本——`blender-design` 是**插件版（33 个，当前使用）**，`blender-skills` 是**独立技能包（27 个，备用）**。实际写进目录的是插件版，独立包作为离线备份保留。
+
+**📦 打包下载：[pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-blender.zip)**（0.1 MB，含 27 个技能）
 
 > Blender 相关：默认**已关闭**，要做三维建模时再启用。
 
@@ -266,6 +318,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 架构图、流程图、数据图表与 SVG 设计系统。
 
+**📦 打包下载：[pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-charts.zip)**（2.0 MB，含 2 个技能；另有 1 个因许可证未收录，见表格来源链接）
+
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
 | 技能 / Skill | 中文说明 | English | 来源 / Source |
@@ -277,6 +331,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 ## 6. 网页与设计原型 / Web & design prototypes
 
 122 个网页 / 幻灯片 / 海报模板（来自 open-design），按需启用。
+
+**📦 打包下载：[pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.1.0/pack-design.zip)**（35.0 MB，含 122 个技能）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -408,6 +464,8 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 ## 7. 文档与办公 / Documents & office
 
 Codex 自带能力：Word / PDF / PPT / 表格 / 可视化 / LaTeX 编译。
+
+**📦 无需下载**：这些是 Codex 自带能力，装好就有。
 
 > 这些是 Codex 自带或插件能力，通常**常驻可用**。
 
