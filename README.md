@@ -14,12 +14,75 @@
 4. 用完告诉 Codex，技能被**卸载**，不占用上下文。
 
 ```powershell
-# 查看全部可挂载技能与当前状态
-D:\CodexSkills\_tools\skill-mount.ps1 -Action list
-# 挂载 / 卸载
-D:\CodexSkills\_tools\skill-mount.ps1 -Action mount   -Name innovation-proposal,qu-ai-wei
-D:\CodexSkills\_tools\skill-mount.ps1 -Action unmount -All
+# 只看不装：列出全部可安装技能
+.\install.ps1 -List
+# 安装需要的技能（从原仓库下载）
+.\install.ps1 -Only innovation-proposal,qu-ai-wei
+# 不想要了就删掉对应目录
+Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 ```
+
+> 为什么要按需装卸：技能清单会在**每次对话开始时**注入上下文，装得越多，每轮消耗的 token 越多。只装当下要用的，能省下可观的成本。
+
+## 下载与安装 / Download & install
+
+**方式一：一键安装脚本（推荐，覆盖全部 220 个技能）**
+
+```powershell
+# 下载本仓库后，在仓库目录里运行
+.\install.ps1 -List                                  # 看看有哪些技能
+.\install.ps1                                        # 全部安装
+.\install.ps1 -Only innovation-proposal,qu-ai-wei    # 只装这几个
+.\install.ps1 -Bundle open-design                    # 只装某一套
+.\install.ps1 -Dest D:\CodexSkills -Link            # 装到 D 盘并建立目录联接
+```
+
+脚本会**从每个技能的原仓库直接下载**再复制到你本机，本仓库不转发文件；网络不通时自动切换镜像重试。
+
+**方式二：离线压缩包（179 个可再分发技能，约 75 MB）**
+
+- 下载地址：[Releases · Codex Skills Pack](https://github.com/xjyloly-prog/codex-skills-catalog/releases/latest)
+- 解压后把 `skills/` 里的目录复制到 `%USERPROFILE%\.codex\skills\`
+- 只收录许可证允许再分发的部分（MIT / Apache-2.0），各上游许可证原文在 `_licenses/`
+
+**装完之后**：重启 Codex 或新开一个对话即可生效；不需要的技能直接删掉目录。
+
+## 重点技能详解 / Key skills in detail
+
+下表是最常用的 30 个技能：怎么喊它、会产出什么、需要什么依赖。
+
+| 技能 / Skill | 怎么触发 / Trigger | 产出物 / Output | 依赖 / Needs |
+|---|---|---|---|
+| [`innovation-proposal`](https://github.com/xwu43361-sys/innovation-proposal) | 「帮我写一份挑战杯创业计划书」 | Word 策划书：章节大纲 + 逐章正文 + 待补充素材清单 | 无 |
+| [`qu-ai-wei`](https://github.com/LifelongLazyLearner/qu-ai-wei) | 「这段太像 AI 写的，改自然点」 | 改写后的中文，事实与语气不变 | 无 |
+| [`pandoc-docx-template`](https://github.com/Achuan-2/pandoc_docx_template) | 「把这份 Markdown 转成规范的中文 Word」 | .docx（可套标题编号与列表缩进模板） | pandoc |
+| [`official-document-drafting`](https://github.com/zhaohui-yang/official-document-drafting) | 「写一份××工作实施方案」 | 规范公文 Markdown，可导出机关版式 Word | 无 |
+| [`software-copyright-materials`](https://github.com/Fokkyp/SoftwareCopyright-Skill) | 「用这个项目生成软著申请材料」 | 申请表信息、源代码文档、操作手册（Word/TXT） | 技能内置工具链 |
+| [`ppt-agent`](https://github.com/sunbigfly/ppt-agent-skills) | 「把这个项目做成路演 PPT」 | HTML 演示文稿（多风格、可导出） | 浏览器 |
+| [`consulting-deck`](https://github.com/zairuilab/consulting-deck) | 「做一份评委视角的路演 PPT」 | 原生可编辑 .pptx，结论先行 + 图表核验 | 无 |
+| [`ppt-template-fill`](https://github.com/xiongwenhao112/ppt-template-fill) | 「用这个学校模板做 PPT」 | 套用模板版式的可编辑 .pptx | 你提供 .pptx/.potx 模板 |
+| [`academic-pptx`](https://github.com/Gabberflast/academic-pptx-skill) | 「做一份答辩 PPT」 | 学术型幻灯片：论证结构 + 引用规范 | 无 |
+| [`math-modeling`](https://github.com/XiaoMaColtAI/math-modeling-skill) | 「帮我做这道数模题」 | 题目分析 + 代码 + 结果 + 论文（三角色分工） | Python；TeX 可选 |
+| [`auto-mcm`](https://github.com/RealSeaberry/AutoMCM-Pro) | 「用 AutoMCM 跑这道国赛题」 | 全流程产物 + LaTeX 论文，含代码自证 | Python、Git |
+| `mathmodel-1start-mathmodel` | 「启动数模全流程」 | plan.md、todo.md，并串联后续六个阶段 | Python |
+| [`bzd-problem-translator`](https://github.com/BZDmathclub/bzd-math-modeling-skills) | 「把题面翻译成建模语言」 | 逐句拆解报告 + 跨问关系流程图 | 无 |
+| [`bzd-modeling-ideas`](https://github.com/BZDmathclub/bzd-math-modeling-skills) | 「给我几个建模思路对比」 | 逐问模型对比表 + 推荐路线与理由 | 无 |
+| [`bzd-review-paper`](https://github.com/BZDmathclub/bzd-math-modeling-skills) | 「按评委标准给我的论文打分」 | HTML 评审报告：逐项评分 + 获奖区间定位 | 论文与题目原件 |
+| [`bzd-paper-format-checker`](https://github.com/BZDmathclub/bzd-math-modeling-skills) | 「检查这篇论文的格式合规性」 | 格式审查清单与问题定位 | PDF 或 Word 论文 |
+| [`bzd-paper-aigc-auditor`](https://github.com/BZDmathclub/bzd-math-modeling-skills) | 「查一下这篇论文的 AI 痕迹」 | 分层 HTML 审计报告（语言层 + 事实层） | 论文原件 |
+| [`科研可视化工具`](https://github.com/XiaoMaColtAI/math-modeling-skill) | 「把这组数据画成论文级图表」 | 出版级图表（PDF/PNG，可矢量） | Python 绘图库 |
+| [`双引擎论文搜索`](https://github.com/XiaoMaColtAI/math-modeling-skill) | 「帮我查这个方向的文献」 | 可追溯的文献元数据列表 | 网络访问 |
+| [`archify`](https://github.com/tt-a1i/archify) | 「画一张系统架构图」 | 可交互 HTML，并可导出 PNG/SVG/WebM | 浏览器 |
+| [`lieflat-charts`](https://github.com/larashero3-dotcom/lieflat-charts) | 「把这组数据做成图表」 | 单文件 HTML 图表或整页报告 | 浏览器（非商业许可） |
+| [`svg-design-system`](https://github.com/VioletScar-Hui/Svg-design-system) | 「画一张流程图 / 矩阵图」 | 信息层级清晰的 SVG（10 套配色） | 无 |
+| [`blender-design`](https://github.com/full-aigc-plugins/blender-design-plugin) | 「照策划书给头盔建个概念模型」 | .blend 场景 + 里程碑预览图 | Blender（已装） |
+| [`blender-hard-surface`](https://github.com/full-aigc-plugins/blender-design-plugin) | 「做头盔外壳的硬表面建模」 | 可编辑网格、可导出 GLB/FBX | Blender |
+| [`blender-render-compositing`](https://github.com/full-aigc-plugins/blender-design-plugin) | 「出一张产品渲染图」 | PNG/EXR 渲染图，含通道与色彩管理 | Blender |
+| [`blender-preview`](https://github.com/full-aigc-plugins/blender-design-plugin) | 「给我看看现在的四个角度」 | 相机/正视/侧视/顶视预览图 | Blender |
+| [`frontend-design`](https://github.com/anthropics/skills) | 「给我的原型定个视觉方向」 | 字体、配色与排版建议 | 无 |
+| [`web-artifacts-builder`](https://github.com/anthropics/skills) | 「做一个可交互的演示原型页」 | React/Tailwind 多组件原型 | Node.js |
+| [`doc-coauthoring`](https://github.com/anthropics/skills) | 「陪我把这份方案写出来」 | 分节打磨的文档 + 读者盲测反馈 | 无 |
+| `latex:latex-compile` | 「编译这份 LaTeX」 | PDF（简单项目走内置 Tectonic，复杂项目走 MiKTeX） | Tectonic / MiKTeX |
 
 ## 目录 / Contents
 
