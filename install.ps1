@@ -58,6 +58,11 @@ $CATEGORY_MAP = [ordered]@{
     charts   = @("archify", "lieflat-charts", "svg-design-system")
     design   = @("open-design")
     office   = @()   # Codex 自带，无需下载
+    academic = @("codex-claude-academic-skills", "academic-paper-skills", "academic-paper-writer")
+    data     = @("huashu-excel")
+    career   = @("JobOK", "LLMInternSkill", "yupi-skill")
+    present  = @("codex-ppt-skill", "group-meeting-ppt-skill")
+    media    = @("chengfeng-videocut-skills", "media-transcribe", "second-brain-skills")
 }
 
 if ($ListCategories) {

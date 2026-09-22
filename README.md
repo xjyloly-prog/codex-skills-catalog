@@ -1,8 +1,8 @@
 # Codex 技能总目录 · Codex Skills Catalog
 
-> 中英双语 · 标注来源 · 共 263 个技能 / Bilingual · Attributed · 263 skills
+> 中英双语 · 标注来源 · 共 297 个技能 / Bilingual · Attributed · 297 skills
 
-> **当前版本：第二版 v2.0.0** — 技能文件已直接放进仓库 · [版本历史](#版本历史--versions) · [Releases](https://github.com/xjyloly-prog/codex-skills-catalog/releases)
+> **当前版本：第三版 v3.0.0** — 新增学术科研、数据表格、求职成长、表达汇报、媒体与知识管理五类通用技能 · [版本历史](#版本历史--versions) · [Releases](https://github.com/xjyloly-prog/codex-skills-catalog/releases)
 
 本仓库是一份**目录与说明书**，收录本机可用的全部 Codex 技能（skills）与角色分工（agents），方便按需查找和启用。
 
@@ -12,7 +12,8 @@
 
 | 版本 | 内容 | 技能文件在哪 | 链接 |
 |---|---|---|---|
-| **第二版 v2.0.0**（当前） | 技能文件按用途分 6 类放进仓库，可浏览 / clone / fork；另附分类压缩包 | `skills/` 目录内 | [v2.0.0](https://github.com/xjyloly-prog/codex-skills-catalog/releases/tag/v2.0.0) |
+| **第三版 v3.0.0**（当前） | 新增 5 类通用技能（学术科研 13、数据表格 1、求职成长 3、表达汇报 2、媒体与知识管理 15），共 11 个分类 | `skills/` 目录内 | [v3.0.0](https://github.com/xjyloly-prog/codex-skills-catalog/releases/tag/v3.0.0) |
+| 第二版 v2.0.0 | 技能文件按用途分 6 类放进仓库，可浏览 / clone / fork；另附分类压缩包 | `skills/` 目录内 | [v2.0.0](https://github.com/xjyloly-prog/codex-skills-catalog/releases/tag/v2.0.0) |
 | 第一版 v1.1.0 | 只有目录与说明，技能放在分类压缩包里 | 压缩包内 | [v1.1.0](https://github.com/xjyloly-prog/codex-skills-catalog/releases/tag/v1.1.0) |
 | 第一版 v1.0.0 | 最初的版本：一个全量压缩包 | 压缩包内 | [v1.0.0](https://github.com/xjyloly-prog/codex-skills-catalog/releases/tag/v1.0.0) |
 
@@ -44,12 +45,17 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 | 我想做… | 下载 | 包里有什么 |
 |---|---|---|
-| 写策划书、商业计划书、申报书 | [pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-proposal.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-proposal.zip) · 13.0 MB | 策划书与申报材料：11 个技能 |
-| 做路演 / 答辩 / 汇报 PPT | [pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-ppt.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-ppt.zip) · 24.1 MB | PPT 与路演：5 个技能 |
-| 打数学建模比赛（国赛 / 美赛） | [pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-math.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-math.zip) · 1.1 MB | 数学建模：12 个技能 |
-| 给产品建模、出渲染图 | [pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-blender.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-blender.zip) · 0.1 MB | 三维建模 Blender：27 个技能 |
-| 画架构图、流程图、数据图表 | [pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-charts.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-charts.zip) · 2.0 MB | 图表与可视化：2 个技能 |
-| 做网页原型、海报、幻灯片模板 | [pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-design.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-design.zip) · 35.0 MB | 网页与设计原型：122 个技能 |
+| 写策划书、商业计划书、申报书 | [pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-proposal.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-proposal.zip) · 13.0 MB | 策划书与申报材料：11 个技能 |
+| 做路演 / 答辩 / 汇报 PPT | [pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-ppt.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-ppt.zip) · 24.0 MB | PPT 与路演：5 个技能 |
+| 打数学建模比赛（国赛 / 美赛） | [pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-math.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-math.zip) · 1.1 MB | 数学建模：12 个技能 |
+| 给产品建模、出渲染图 | [pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-blender.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-blender.zip) · 0.1 MB | 三维建模 Blender：27 个技能 |
+| 画架构图、流程图、数据图表 | [pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-charts.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-charts.zip) · 2.0 MB | 图表与可视化：2 个技能 |
+| 做网页原型、海报、幻灯片模板 | [pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-design.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-design.zip) · 35.0 MB | 网页与设计原型：122 个技能 |
+| 写论文、做学术汇报、改稿投稿 | [pack-academic.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-academic.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-academic.zip) · 3.1 MB | 学术与科研：13 个技能 |
+| 清洗分析表格数据 | [pack-data.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-data.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-data.zip) · 0.2 MB | 数据与表格：1 个技能 |
+| 改简历、准备面试、规划学习 | [pack-career.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-career.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-career.zip) · 1.9 MB | 求职与成长：3 个技能 |
+| 做商业汇报 PPT、组会 PPT | [pack-present.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-present.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-present.zip) · 13.4 MB | 表达与汇报：2 个技能 |
+| 剪视频、转录音频、管理笔记 | [pack-media.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-media.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-media.zip) · 3.3 MB | 媒体与知识管理：15 个技能 |
 | 写 Word / PDF / PPT / 表格 | 无需下载（Codex 自带） | Word / PDF / PPT / 表格 / LaTeX |
 
 **想要全部？** 直接 clone 仓库即可（技能都在 `skills/` 里）；也可以下载第一版的全量包 [codex-skills-pack-v1.0.0.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.0.0/codex-skills-pack-v1.0.0.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v1.0.0/codex-skills-pack-v1.0.0.zip)（179 个技能，75.3 MB）。
@@ -58,13 +64,18 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 
 | 类别 | 技能数 | 打包下载 | 未收录 | 说明 |
 |---|---|---|---|---|
-| 策划书与申报材料 / Proposals & applications | 11 | [pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-proposal.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-proposal.zip) · 13.0 MB | 4 | 4 个因许可证未收录，需从原仓库获取 |
-| PPT 与路演 / Presentations | 5 | [pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-ppt.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-ppt.zip) · 24.1 MB | 0 | 全部可下载 |
-| 数学建模 / Mathematical modeling | 12 | [pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-math.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-math.zip) · 1.1 MB | 36 | 36 个因许可证未收录，需从原仓库获取 |
-| 三维建模 Blender / 3D modeling | 27 | [pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-blender.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-blender.zip) · 0.1 MB | 0 | 全部可下载 |
-| 图表与可视化 / Charts & diagrams | 2 | [pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-charts.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-charts.zip) · 2.0 MB | 1 | 1 个因许可证未收录，需从原仓库获取 |
-| 网页与设计原型 / Web & design prototypes | 122 | [pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-design.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-design.zip) · 35.0 MB | 0 | 全部可下载 |
+| 策划书与申报材料 / Proposals & applications | 11 | [pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-proposal.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-proposal.zip) · 13.0 MB | 4 | 4 个因许可证未收录，需从原仓库获取 |
+| PPT 与路演 / Presentations | 5 | [pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-ppt.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-ppt.zip) · 24.0 MB | 0 | 全部可下载 |
+| 数学建模 / Mathematical modeling | 12 | [pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-math.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-math.zip) · 1.1 MB | 36 | 36 个因许可证未收录，需从原仓库获取 |
+| 三维建模 Blender / 3D modeling | 27 | [pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-blender.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-blender.zip) · 0.1 MB | 0 | 全部可下载 |
+| 图表与可视化 / Charts & diagrams | 2 | [pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-charts.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-charts.zip) · 2.0 MB | 1 | 1 个因许可证未收录，需从原仓库获取 |
+| 网页与设计原型 / Web & design prototypes | 122 | [pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-design.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-design.zip) · 35.0 MB | 0 | 全部可下载 |
 | 文档与办公 / Documents & office | 0 | 无需下载 | 0 | Codex 自带，装了就有 |
+| 学术与科研 / Academic & research | 13 | [pack-academic.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-academic.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-academic.zip) · 3.1 MB | 0 | 全部可下载 |
+| 数据与表格 / Data & spreadsheets | 1 | [pack-data.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-data.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-data.zip) · 0.2 MB | 0 | 全部可下载 |
+| 求职与成长 / Career & growth | 3 | [pack-career.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-career.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-career.zip) · 1.9 MB | 0 | 全部可下载 |
+| 表达与汇报 / Presentation & reporting | 2 | [pack-present.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-present.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-present.zip) · 13.4 MB | 0 | 全部可下载 |
+| 媒体与知识管理 / Media & knowledge | 15 | [pack-media.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-media.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-media.zip) · 3.3 MB | 0 | 全部可下载 |
 
 ### 未收录的怎么办 / When a skill is not in the pack
 
@@ -82,6 +93,21 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 .\install.ps1 -Category math      # 从原仓库安装数模类全部 48 个
 ```
 
+### 相关资源（未收录，仅给链接）/ Related projects
+
+这些项目与本目录同方向，但上游**没有许可证文件**或属于索引型资料，无法打包进仓库，感兴趣请直接访问原仓库：
+
+| 项目 | 说明 | 许可证 |
+|---|---|---|
+| [AIScientists-Dev/academic-humanizer](https://github.com/AIScientists-Dev/academic-humanizer) | 学术文本去 AI 味：去掉论文与基金申请书里的机器痕迹，保留学术语气。 | 自定义许可 |
+| [lingzhi227/agent-research-skills](https://github.com/lingzhi227/agent-research-skills) | 系统性文献综述的深度调研流程。 | 无许可 |
+| [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | 科研技能目录与文档（仓库内是索引资料，不含可安装的 SKILL.md）。 | 无许可 |
+| [aliyun/data-agent-skill](https://github.com/aliyun/data-agent-skill) | 阿里云的数据分析智能体。 | 无许可 |
+| [zlhhhh8901/longtext-translate](https://github.com/zlhhhh8901/longtext-translate) | 长文翻译技能：把任意长度的外文材料转成顺读的母语译文。 | 无许可 |
+| [RuiqiWang-LGD/TalkTrack--](https://github.com/RuiqiWang-LGD/TalkTrack--) | 方案汇报伴读稿：与原文件页码同步，左侧缩略图、右侧可照读正文。 | 无许可 |
+| [sammyteng/video-reader](https://github.com/sammyteng/video-reader) | 视频读取与总结：自动选择解析路径，输出章节、摘要或播客稿。 | 自定义许可 |
+| [STRYXTN/awesome-ai-research-writing](https://github.com/STRYXTN/awesome-ai-research-writing) | 论文写作提示词与技能集合，偏模板与范例。 | 无许可 |
+
 **方式一：直接在仓库里取（推荐，无需下载压缩包）**
 
 技能文件就在本仓库的 `skills/` 目录下，按用途分好了文件夹，可以直接浏览、clone 或 fork：
@@ -94,6 +120,11 @@ Remove-Item "$env:USERPROFILE\.codex\skills\innovation-proposal" -Recurse
 | [`skills/blender/`](./skills/blender/) | 三维建模 Blender | 27 |
 | [`skills/charts/`](./skills/charts/) | 图表与可视化 | 2 |
 | [`skills/design/`](./skills/design/) | 网页与设计原型 | 122 |
+| [`skills/academic/`](./skills/academic/) | 学术与科研 | 13 |
+| [`skills/data/`](./skills/data/) | 数据与表格 | 1 |
+| [`skills/career/`](./skills/career/) | 求职与成长 | 3 |
+| [`skills/present/`](./skills/present/) | 表达与汇报 | 2 |
+| [`skills/media/`](./skills/media/) | 媒体与知识管理 | 15 |
 
 ```bash
 # 完整克隆（约 100 MB）
@@ -130,7 +161,7 @@ cp -r codex-skills-catalog/skills/ppt/* ~/.codex/skills/
 
 ## 重点技能详解 / Key skills in detail
 
-下表是最常用的 30 个技能：怎么喊它、会产出什么、需要什么依赖。
+下表是最常用的 39 个技能：怎么喊它、会产出什么、需要什么依赖。
 
 | 技能 / Skill | 怎么触发 / Trigger | 产出物 / Output | 依赖 / Needs |
 |---|---|---|---|
@@ -164,6 +195,15 @@ cp -r codex-skills-catalog/skills/ppt/* ~/.codex/skills/
 | [`web-artifacts-builder`](https://github.com/anthropics/skills) | 「做一个可交互的演示原型页」 | React/Tailwind 多组件原型 | Node.js |
 | [`doc-coauthoring`](https://github.com/anthropics/skills) | 「陪我把这份方案写出来」 | 分节打磨的文档 + 读者盲测反馈 | 无 |
 | `latex:latex-compile` | 「编译这份 LaTeX」 | PDF（简单项目走内置 Tectonic，复杂项目走 MiKTeX） | Tectonic / MiKTeX |
+| [`research-writing-skill`](https://github.com/zLanqing/codex-claude-academic-skills) | 「帮我写这篇论文的讨论部分」 | 中文学术写作与修改稿，含审稿意见回复 | 无 |
+| [`office-academic-skill`](https://github.com/zLanqing/codex-claude-academic-skills) | 「把这篇论文做成组会 PPT」 | Word 阅读报告或学术 PPT | 无 |
+| [`academic-paper-writer`](https://github.com/joshua-zyy/academic-paper-writer) | 「从我的实验笔记写一篇 ML 论文」 | 分节成稿 + 引用核验 + 图表 + LaTeX 排版 | LaTeX（可选） |
+| [`huashu-excel`](https://github.com/alchaincyf/huashu-excel) | 「这张表太脏了，帮我清一下再分析」 | 清洗后的表格、分析结论与对账说明 | openpyxl |
+| [`job-ok`](https://github.com/GresonKwan/JobOK) | 「帮我改简历，投这个岗位」 | 岗位匹配分析、改写后的简历、面试问题清单 | 无 |
+| [`group-meeting-ppt-skill`](https://github.com/Zero-stargazer/group-meeting-ppt-skill) | 「把这篇论文做成组会汇报」 | 可编辑 PPTX + 每页讲解要点 + 追问清单 | 无 |
+| [`media-transcribe`](https://github.com/loqz99156/media-transcribe) | 「把这个 B 站视频转成文字稿」 | 中文 Markdown 转录稿（可批量） | 网络 |
+| [`chengfeng-cut`](https://github.com/Agentchengfeng/chengfeng-videocut-skills) | 「把这段口播的废话剪掉」 | 粗剪后的片段与时间轴 | chengfeng 运行时 |
+| [`second-brain-hub`](https://github.com/StarDust-AI-Labs/second-brain-skills) | 「帮我把这些资料整理进笔记库」 | Obsidian 笔记、双链与索引 | Obsidian |
 
 ## 目录 / Contents
 
@@ -174,6 +214,11 @@ cp -r codex-skills-catalog/skills/ppt/* ~/.codex/skills/
 5. [图表与可视化 / Charts & diagrams](#5-图表与可视化--charts--diagrams) — 3 个
 6. [网页与设计原型 / Web & design prototypes](#6-网页与设计原型--web--design-prototypes) — 122 个
 7. [文档与办公 / Documents & office](#7-文档与办公--documents--office) — 10 个
+8. [学术与科研 / Academic & research](#8-学术与科研--academic--research) — 13 个
+9. [数据与表格 / Data & spreadsheets](#9-数据与表格--data--spreadsheets) — 1 个
+10. [求职与成长 / Career & growth](#10-求职与成长--career--growth) — 3 个
+11. [表达与汇报 / Presentation & reporting](#11-表达与汇报--presentation--reporting) — 2 个
+12. [媒体与知识管理 / Media & knowledge](#12-媒体与知识管理--media--knowledge) — 15 个
 
 另外包含：[Agents 角色分工](#agents-角色分工--agent-roles) · [依赖清单](#依赖清单--dependencies) · [来源与许可](#来源与许可--sources--licenses) · [免责声明](#免责声明--disclaimer)
 
@@ -183,7 +228,7 @@ cp -r codex-skills-catalog/skills/ppt/* ~/.codex/skills/
 
 **📁 仓库目录：[`skills/proposal/`](./skills/proposal/)**（11 个技能，可直接浏览或复制）
 
-**📦 打包下载：[pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-proposal.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-proposal.zip)**（13.0 MB，含 11 个技能；另有 4 个因许可证未收录，见表格来源链接）
+**📦 打包下载：[pack-proposal.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-proposal.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-proposal.zip)**（13.0 MB，含 11 个技能；另有 4 个因许可证未收录，见表格来源链接）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -211,7 +256,7 @@ cp -r codex-skills-catalog/skills/ppt/* ~/.codex/skills/
 
 **📁 仓库目录：[`skills/ppt/`](./skills/ppt/)**（5 个技能，可直接浏览或复制）
 
-**📦 打包下载：[pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-ppt.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-ppt.zip)**（24.1 MB，含 5 个技能）
+**📦 打包下载：[pack-ppt.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-ppt.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-ppt.zip)**（24.0 MB，含 5 个技能）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -229,7 +274,7 @@ cp -r codex-skills-catalog/skills/ppt/* ~/.codex/skills/
 
 **📁 仓库目录：[`skills/math/`](./skills/math/)**（12 个技能，可直接浏览或复制）
 
-**📦 打包下载：[pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-math.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-math.zip)**（1.1 MB，含 12 个技能；另有 36 个因许可证未收录，见表格来源链接）
+**📦 打包下载：[pack-math.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-math.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-math.zip)**（1.1 MB，含 12 个技能；另有 36 个因许可证未收录，见表格来源链接）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -292,7 +337,7 @@ cp -r codex-skills-catalog/skills/ppt/* ~/.codex/skills/
 
 **📁 仓库目录：[`skills/blender/`](./skills/blender/)**（27 个技能，可直接浏览或复制）
 
-**📦 打包下载：[pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-blender.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-blender.zip)**（0.1 MB，含 27 个技能）
+**📦 打包下载：[pack-blender.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-blender.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-blender.zip)**（0.1 MB，含 27 个技能）
 
 > Blender 相关：默认**已关闭**，要做三维建模时再启用。
 
@@ -365,7 +410,7 @@ cp -r codex-skills-catalog/skills/ppt/* ~/.codex/skills/
 
 **📁 仓库目录：[`skills/charts/`](./skills/charts/)**（2 个技能，可直接浏览或复制）
 
-**📦 打包下载：[pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-charts.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-charts.zip)**（2.0 MB，含 2 个技能；另有 1 个因许可证未收录，见表格来源链接）
+**📦 打包下载：[pack-charts.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-charts.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-charts.zip)**（2.0 MB，含 2 个技能；另有 1 个因许可证未收录，见表格来源链接）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -381,7 +426,7 @@ cp -r codex-skills-catalog/skills/ppt/* ~/.codex/skills/
 
 **📁 仓库目录：[`skills/design/`](./skills/design/)**（122 个技能，可直接浏览或复制）
 
-**📦 打包下载：[pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-design.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v2.0.0/pack-design.zip)**（35.0 MB，含 122 个技能）
+**📦 打包下载：[pack-design.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-design.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-design.zip)**（35.0 MB，含 122 个技能）
 
 > 按需启用：默认**不挂载**，需要时挂上并新开对话。
 
@@ -531,6 +576,107 @@ Codex 自带能力：Word / PDF / PPT / 表格 / 可视化 / LaTeX 编译。
 | `texlive-runtime-installer` | 在本机没有 TeX Live 时，安装由 Codex 管理的完整运行时。 | Detect existing TeX Live or MacTeX first, then optionally install a Codex-managed full TeX Live runtime only when no existing TeX Live installation i… | [OpenAI Codex 内置插件](https://openai.com/) · Proprietary |
 | `visualize` | 在对话里直接创建可视化与交互工具，用于讲解、对比与探索。 | Create visualizations and interactive tools directly in conversation. | [OpenAI Codex 内置插件](https://openai.com/) · Proprietary |
 
+## 8. 学术与科研 / Academic & research
+
+从读文献、定选题到写作、改稿、投稿的完整科研链条，全部中文优先设计。
+
+涵盖三套：中文学术 Office 工作流（阅读报告 + 组会 PPT）、中文论文写作与审稿回复、以及 CS/AI/ML 论文的分节写作工具箱（引用核验、实验证据、图表、LaTeX 排版、投稿调研）。其中 `scientific-toolkit-skill` 还捆绑了 21 个科学计算子技能（astropy、matplotlib、文献检索、引用管理等）。
+
+**📁 仓库目录：[`skills/academic/`](./skills/academic/)**（13 个技能，可直接浏览或复制）
+
+**📦 打包下载：[pack-academic.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-academic.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-academic.zip)**（3.1 MB，含 13 个技能）
+
+> 按需启用：默认**不挂载**，需要时挂上并新开对话。
+
+| 技能 / Skill | 中文说明 | English | 来源 / Source |
+|---|---|---|---|
+| `academic-paper-composer` | 学术论文的写作执行：从提纲逐节推进到成稿。 | Systematic writing framework for philosophy and interdisciplinary academic papers from optimized outline to submission-ready manuscript. | [lishix520/academic-paper-skills](https://github.com/lishix520/academic-paper-skills) · MIT |
+| `academic-paper-strategist` | 学术论文的战略规划：目标期刊、论证主线与章节预算。 | Systematic strategic planning framework for philosophy and interdisciplinary academic papers targeting preprint platforms (PhilArchive, arXiv, PhilSc… | [lishix520/academic-paper-skills](https://github.com/lishix520/academic-paper-skills) · MIT |
+| `academic-citation` | 引用检索、核验与映射，产出标注「已核实/未核实」的参考文献表。 | Search, verify, and map citations for CS/AI/ML papers. | [joshua-zyy/academic-paper-writer](https://github.com/joshua-zyy/academic-paper-writer) · MIT |
+| `academic-experiments` | 实验证据审计、运行与核验，产出实验证据清单。 | Audit, run, or verify experimental evidence for CS/AI/ML papers. | [joshua-zyy/academic-paper-writer](https://github.com/joshua-zyy/academic-paper-writer) · MIT |
+| `academic-figure` | 学术图表创建与审阅：数据图、结果图、多面板排版。 | Create, revise, or audit academic data/result figures for CS/AI/ML papers. | [joshua-zyy/academic-paper-writer](https://github.com/joshua-zyy/academic-paper-writer) · MIT |
+| `academic-latex-layout` | LaTeX 排版：图表浮动位置、草稿到投稿模板的迁移。 | Use when working on academic paper LaTeX layout, figure/table float placement, draft-to-template LaTeX generation, existing .tex project layout repai… | [joshua-zyy/academic-paper-writer](https://github.com/joshua-zyy/academic-paper-writer) · MIT |
+| `academic-paper-writer` | CS/AI/ML 论文写作与修订，支持从研究笔记、代码仓库、文献出发。 | Use when writing or revising CS/AI/ML papers from research notes, code repositories, local literature libraries, target venue requirements, or sectio… | [joshua-zyy/academic-paper-writer](https://github.com/joshua-zyy/academic-paper-writer) · MIT |
+| `academic-polishing` | 学术润色：去 AI 味、控制论断强度、重写方法章节。 | Polish academic prose, de-AI-ify text, control claim strength, or rewrite method sections for CS/AI/ML papers. | [joshua-zyy/academic-paper-writer](https://github.com/joshua-zyy/academic-paper-writer) · MIT |
+| `academic-reviser` | 以审稿人视角做三轮自查与审核，给出修改优先级。 | Self-review, audit, or verify CS/AI/ML paper drafts as a critical peer reviewer. | [joshua-zyy/academic-paper-writer](https://github.com/joshua-zyy/academic-paper-writer) · MIT |
+| `academic-venue-research` | 调研目标期刊/会议的投稿要求与写作风格，产出投稿简报。 | Research target venue requirements and writing style for CS/AI/ML papers. | [joshua-zyy/academic-paper-writer](https://github.com/joshua-zyy/academic-paper-writer) · MIT |
+| `office-academic-skill` | 中文优先的学术 Office 工作流：论文阅读报告、组会与答辩用的 Word/PPT。 | Chinese-first academic Word and PowerPoint workflow for paper reading reports, thesis or group-meeting PPTs, editable DOCX/PPTX generation, Office fi… | [zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) · MIT |
+| `research-writing-skill` | 中文优先的论文写作与修订：分节起草、润色、审稿意见回复。 | Chinese-first research paper writing, revision, polishing, section drafting, rebuttal, peer-review response, thesis prose improvement, and manuscript… | [zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) · MIT |
+| `scientific-toolkit-skill` | 科研计算工具箱：MATLAB/Octave/Python 数值计算与期刊级图表（内含 21 个科学技能子库，如 astropy、matplotlib、文献检索、引用管理）。 | Research computing toolkit for optoelectronic information science and engineering, MATLAB/Octave, Python scientific analysis, signal processing, imag… | [zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) · MIT |
+
+## 9. 数据与表格 / Data & spreadsheets
+
+面向「数字要经得起追问」的场景：先给脏表做体检，再清洗、对齐需求、分析、对账，最后交付能解释清楚的数据结论。
+
+**📁 仓库目录：[`skills/data/`](./skills/data/)**（1 个技能，可直接浏览或复制）
+
+**📦 打包下载：[pack-data.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-data.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-data.zip)**（0.2 MB，含 1 个技能）
+
+> 按需启用：默认**不挂载**，需要时挂上并新开对话。
+
+| 技能 / Skill | 中文说明 | English | 来源 / Source |
+|---|---|---|---|
+| `huashu-excel` | 数据分析全流程：脏表体检 → 清洗 → 对齐需求 → 分析 → 对账 → 交付，让算出来的数字经得起追问（仅依赖 openpyxl）。 | 数据分析全流程：体检脏表、清洗、定口径、算指标、对账、出报告。处理 Excel/CSV/系统导出数据，做透视写公式，查两个数为什么对不上，判断一个数靠不靠谱时用。核心是让算出来的数字经得起追问。幻灯片和 PPT 交给 huashu-design。 | [alchaincyf/huashu-excel](https://github.com/alchaincyf/huashu-excel) · MIT |
+
+## 10. 求职与成长 / Career & growth
+
+简历打磨、岗位匹配、面试训练与编程学习路线。三个技能分别面向中文求职通用场景、大模型/Agent 方向实习，以及程序员学习与求职问答。
+
+**📁 仓库目录：[`skills/career/`](./skills/career/)**（3 个技能，可直接浏览或复制）
+
+**📦 打包下载：[pack-career.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-career.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-career.zip)**（1.9 MB，含 3 个技能）
+
+> 按需启用：默认**不挂载**，需要时挂上并新开对话。
+
+| 技能 / Skill | 中文说明 | English | 来源 / Source |
+|---|---|---|---|
+| `job-ok` | 中文求职助手：优势挖掘、岗位匹配、简历优化、面试训练、投递跟踪。 | Use when helping a Chinese job seeker, especially students, interns, or early-career users, prepare job applications with an agent without fabricatin… | [GresonKwan/JobOK](https://github.com/GresonKwan/JobOK) · MIT |
+| `llm-intern-skill` | 大模型/Agent 方向求职：简历润色、JD 匹配、面试追问、项目证据挖掘。 | Use when polishing, diagnosing, tailoring, or exporting resumes for LLM, RAG, Agent, Agentic RL, post-training, pretraining, AIGC, search/ranking, mu… | [wanyichen06/LLMInternSkill](https://github.com/wanyichen06/LLMInternSkill) · MIT |
+| `yupi-skill` | 程序员学习与求职问答：编程学习路线、面试准备、简历优化、技术选型。 | 以"程序员鱼皮"的身份、口吻、思维方式回答问题。鱼皮是前腾讯全栈工程师、全网200万+粉丝的AI+编程知识博主、科技公司鱼鸢网络CEO、编程导航创始人。 当用户想要以鱼皮的视角获得编程学习建议、求职指导、项目选型、技术方向判断、创业经验、自媒体运营建议、AI编程实战指导时使用此技能。 也适用于用户… | [liyupi/yupi-skill](https://github.com/liyupi/yupi-skill) · MIT |
+
+## 11. 表达与汇报 / Presentation & reporting
+
+两类高密度中文汇报：toB 商业汇报 PPT（先图后版，输出可编辑 PPTX），以及把论文 PDF 转成组会 PPT（含讲解要点与老师追问清单）。
+
+**📁 仓库目录：[`skills/present/`](./skills/present/)**（2 个技能，可直接浏览或复制）
+
+**📦 打包下载：[pack-present.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-present.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-present.zip)**（13.4 MB，含 2 个技能）
+
+> 按需启用：默认**不挂载**，需要时挂上并新开对话。
+
+| 技能 / Skill | 中文说明 | English | 来源 / Source |
+|---|---|---|---|
+| `imagegen-scene-ppt` | 中文 toB 商业汇报 PPT：先出大纲 → 生成页面大图 → 拆解为元素 → 重组为可编辑 PPTX。 | 面向中文 toB 商业汇报的 PPT 工作流路由：新做汇报先生成图片型 PPT；已有图片页或生成后的页图，再按目标拆解为元素重组 PPTX、semantic visual-replica 或 SVG。适用于图片页转可编辑 PPT、v4/v5 元素重组、图片型 PPT 结构重建。 | [Ronnie2025/codex-ppt-skill](https://github.com/Ronnie2025/codex-ppt-skill) · MIT |
+| `group-meeting-ppt-skill` | 把学术论文 PDF 变成中文可编辑的组会 PPTX，含每页讲解要点、图表建议与老师可能追问的清单。 | Turn an academic paper PDF into a Chinese, editable group-meeting PPTX that is ready to present: read the paper, select and crop its real figures, bu… | [Zero-stargazer/group-meeting-ppt-skill](https://github.com/Zero-stargazer/group-meeting-ppt-skill) · MIT |
+
+## 12. 媒体与知识管理 / Media & knowledge
+
+内容生产与知识沉淀：口播视频从粗剪、字幕、画面变化到导出成片；多平台视频音频转录；以及基于 Obsidian 的第二大脑体系（笔记、双链、数据库视图、画布）。
+
+**📁 仓库目录：[`skills/media/`](./skills/media/)**（15 个技能，可直接浏览或复制）
+
+**📦 打包下载：[pack-media.zip](https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-media.zip) · [镜像](https://ghproxy.net/https://github.com/xjyloly-prog/codex-skills-catalog/releases/download/v3.0.0/pack-media.zip)**（3.3 MB，含 15 个技能）
+
+> 按需启用：默认**不挂载**，需要时挂上并新开对话。
+
+| 技能 / Skill | 中文说明 | English | 来源 / Source |
+|---|---|---|---|
+| `chengfeng-check-updates` | 检查技能与运行时版本，提示更新。 | 剪辑环境的唯一管理者：就绪检查（skills 是否最新 → Runtime 是否配套）、Skills 更新激活、Runtime 安装与体检。用户说检查更新、安装剪辑环境、装播放器、检查剪辑环境、剪辑环境就绪了吗、配置转录凭证时使用；业务 Skill（剪口播/字幕/画面/导出）第 0 步也引用本 S… | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) · Apache-2.0 |
+| `chengfeng-cut` | 口播素材粗剪：去重复、去口癖、按语义切分。 | 剪辑中文口播原素材：逐词转录、词典修字出修字表、五轮扫描找口误与重复、汇总表与重复句子表、打开 Studio 让用户复核、复盘沉淀用户偏好与词典。只产出一份已复核的删词账本，不切媒体、不做字幕、不做分镜动画。用户说剪口播、处理口误、生成口播基础素材、继续剪口播，或确认卡回传 action=retu… | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) · Apache-2.0 |
+| `chengfeng-export` | 导出成片：合并片段、渲染、导出 mp4。 | 把剪好的口播烧成一个成片文件：账本切片段、推近、字幕、HTML 画面层，一次全部烧进 mp4。用户说导出、出成片、烧字幕、渲染、导出视频、生成最终文件时使用。不要用于生成删词候选、写字幕、做画面动画。 | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) · Apache-2.0 |
+| `chengfeng-report-bug` | 把使用中遇到的问题整理成 GitHub Issue 草稿。 | 整理、脱敏并上报 chengfeng-videocut 的 GitHub Bug。用户说上报 Bug、反馈剪口播问题、提交 GitHub Issue、这个问题告诉开发者，或要求继续提交已预览的 Bug 草稿时使用。不要用于功能建议、普通排错、代码提交或未获用户确认的自动上报。 | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) · Apache-2.0 |
+| `chengfeng-subtitle` | 字幕生成与校对：气泡字幕、时间轴对齐。 | 给剪好的口播做字幕：直接用已有的逐词稿加账本算出剪后时间（不必导出、不必重新转录）、用词典和作者文稿改写听错的专名、按句子分屏、在 Studio 里逐屏复核。用户说做字幕、加字幕、改字幕、重新分屏、字幕不对时使用。不要用于删词剪辑、物理剪切、分镜动画或成片渲染。 | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) · Apache-2.0 |
+| `chengfeng-videocut-workbench` | 视频剪辑工作台（总入口）：查看工程状态、替换画面、调整片段。 | 操作 chengfeng-videocut 剪辑工作台的已有工程，通过 Runtime CLI 查工程与词句位置、添加或替换画面覆盖层、移除画面、删除明确指定的词句或片段、拆分裁剪移动已有片段、调整画布比例并回读核验。用户说插入片段、删掉这句、移除动画、换个画面、调整顺序或管理时间线时使用；先区分… | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) · Apache-2.0 |
+| `chengfeng-visual` | 口播画面变化：HTML 图层（圈重点、小窗、进度条、代码块）。 | 给剪好的口播配画面：在录屏上盖 HTML 层（圈重点标注 / 小黑整屏动画 / 推近），层绑字幕屏、由播放器逐帧驱动、直接在预览里看。用户说做分镜、配画面、加动画、圈重点、B-roll、做 storyboard 时使用。不要用于删词剪辑、字幕、物理剪切或成片渲染。 | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) · Apache-2.0 |
+| `ian-xiaohei-svg-motion` | 小黑风格 HTML/SVG 动态插画，适合中文文章与分镜。 | Create Ian Xiaohei-style HTML/SVG motion illustrations for Chinese articles, scripts, storyboard scenes, workflow explanations, concept metaphors, an… | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) · Apache-2.0 |
+| `media-transcribe` | 多平台视频音频转录：B站、抖音、YouTube、播客、RSS 等，支持批量、断点续跑与中文翻译，输出 Markdown。 | 统一转录抖音、B站、TikTok、微博、知乎、YouTube、视频号、播客、RSS 和本地音频， 也可在用户已有浏览器登录态中批量同步并转录抖音公开账号作品； 下载或读取音频后生成统一 Markdown；视频号单条转录只临时下载一个版本并在结束时清理，YouTube 英文内容可用 DeepSeek… | [loqz99156/media-transcribe](https://github.com/loqz99156/media-transcribe) · MIT |
+| `defuddle` | 从网页提取干净的 Markdown 正文，去掉导航与广告噪声。 | Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. | [StarDust-AI-Labs/second-brain-skills](https://github.com/StarDust-AI-Labs/second-brain-skills) · Apache-2.0 |
+| `json-canvas` | 创建与编辑 JSON Canvas 画布：节点、连线与分组。 | Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. | [StarDust-AI-Labs/second-brain-skills](https://github.com/StarDust-AI-Labs/second-brain-skills) · Apache-2.0 |
+| `obsidian-bases` | Obsidian Bases 数据库视图：筛选、公式与汇总。 | Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. | [StarDust-AI-Labs/second-brain-skills](https://github.com/StarDust-AI-Labs/second-brain-skills) · Apache-2.0 |
+| `obsidian-cli` | 用命令行读写、搜索、管理 Obsidian 笔记库。 | Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. | [StarDust-AI-Labs/second-brain-skills](https://github.com/StarDust-AI-Labs/second-brain-skills) · Apache-2.0 |
+| `obsidian-markdown` | Obsidian 风格 Markdown：双链、嵌入、标注块与属性。 | Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. | [StarDust-AI-Labs/second-brain-skills](https://github.com/StarDust-AI-Labs/second-brain-skills) · Apache-2.0 |
+| `second-brain-hub` | 第二大脑总入口：捕获、组织、回顾，把信息消费变成知识产出。 | 第二大脑唯一公开入口。用于记录灵感、保存网页、整理或提炼笔记、启动创作、处理收件箱、周月回顾、搜索知识库，以及诊断信息混乱、持续收集却无法产出等知识管理问题。涉及第二大脑、Obsidian Vault 或 Markdown 知识库工作流时使用；纯 Obsidian 技术配置与通用 Markdown… | [StarDust-AI-Labs/second-brain-skills](https://github.com/StarDust-AI-Labs/second-brain-skills) · Apache-2.0 |
+
 ## Agents 角色分工 / Agent roles
 
 Codex 里的“agent”有三层含义，用法不同：
@@ -569,18 +715,29 @@ Codex 里的“agent”有三层含义，用法不同：
 | [BZDmathclub/bzd-math-modeling-skills](https://github.com/BZDmathclub/bzd-math-modeling-skills) | 16 | 见仓库 |
 | [XiaoMaColtAI/math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill) | 10 | 见仓库 |
 | [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) | 10 | 见仓库 |
+| [joshua-zyy/academic-paper-writer](https://github.com/joshua-zyy/academic-paper-writer) | 8 | MIT |
+| [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) | 8 | Apache-2.0 |
 | [sweetcornna/mathodology](https://github.com/sweetcornna/mathodology) | 8 | MIT |
 | [zhaohui-yang/official-document-drafting](https://github.com/zhaohui-yang/official-document-drafting) | 8 | MIT |
+| [StarDust-AI-Labs/second-brain-skills](https://github.com/StarDust-AI-Labs/second-brain-skills) | 6 | Apache-2.0 |
 | [OpenAI Codex 内置](https://openai.com/) | 6 | Proprietary |
 | [RealSeaberry/AutoMCM-Pro](https://github.com/RealSeaberry/AutoMCM-Pro) | 4 | MIT |
 | [OpenAI Codex 内置插件](https://openai.com/) | 4 | Proprietary |
+| [zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 3 | MIT |
+| [lishix520/academic-paper-skills](https://github.com/lishix520/academic-paper-skills) | 2 | MIT |
 | [anthropics/skills](https://github.com/anthropics/skills) | 2 | Apache-2.0 |
 | [Gabberflast/academic-pptx-skill](https://github.com/Gabberflast/academic-pptx-skill) | 1 | MIT |
 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 1 | MIT |
+| [Ronnie2025/codex-ppt-skill](https://github.com/Ronnie2025/codex-ppt-skill) | 1 | MIT |
 | [zairuilab/consulting-deck](https://github.com/zairuilab/consulting-deck) | 1 | Apache-2.0 |
 | [anthropics/skills](https://github.com/anthropics/skills) | 1 | 见仓库 |
+| [Zero-stargazer/group-meeting-ppt-skill](https://github.com/Zero-stargazer/group-meeting-ppt-skill) | 1 | MIT |
+| [alchaincyf/huashu-excel](https://github.com/alchaincyf/huashu-excel) | 1 | MIT |
 | [xwu43361-sys/innovation-proposal](https://github.com/xwu43361-sys/innovation-proposal) | 1 | MIT |
+| [GresonKwan/JobOK](https://github.com/GresonKwan/JobOK) | 1 | MIT |
 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 1 | 见仓库 |
+| [wanyichen06/LLMInternSkill](https://github.com/wanyichen06/LLMInternSkill) | 1 | MIT |
+| [loqz99156/media-transcribe](https://github.com/loqz99156/media-transcribe) | 1 | MIT |
 | [Achuan-2/pandoc_docx_template](https://github.com/Achuan-2/pandoc_docx_template) | 1 | 见仓库 |
 | [Akxan/ppt-agent-skill](https://github.com/Akxan/ppt-agent-skill) | 1 | MIT |
 | [sunbigfly/ppt-agent-skills](https://github.com/sunbigfly/ppt-agent-skills) | 1 | MIT |
@@ -588,6 +745,7 @@ Codex 里的“agent”有三层含义，用法不同：
 | [LifelongLazyLearner/qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei) | 1 | MIT |
 | [Fokkyp/SoftwareCopyright-Skill](https://github.com/Fokkyp/SoftwareCopyright-Skill) | 1 | 见仓库 |
 | [VioletScar-Hui/Svg-design-system](https://github.com/VioletScar-Hui/Svg-design-system) | 1 | 见仓库 |
+| [liyupi/yupi-skill](https://github.com/liyupi/yupi-skill) | 1 | MIT |
 
 本项目对这些技能的收录方式是：**只写说明与出处，不复制技能文件**（Blender 等个别条目除外，均已注明）。若原作者希望调整署名或移除条目，提出即可。
 

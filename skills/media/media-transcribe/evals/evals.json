@@ -1,0 +1,22 @@
+{
+  "skill_name": "media-transcribe",
+  "evaluation_type": "static prompt-fixture coverage",
+  "limitations": "Validates declared prompt cases and required tags only; does not invoke a live host router or prove real-platform end-to-end behavior.",
+  "evals": [
+    {"id": 1, "route": "positive", "tags": ["douyin"], "prompt": "帮我把这个抖音短链里的公开视频转成文字并保存 Markdown。", "expected": "route media-transcribe; use Douyin adapter"},
+    {"id": 2, "route": "positive", "tags": ["bilibili"], "prompt": "转录这个 B 站 BV1xx411c7mD，输出 Markdown。", "expected": "route media-transcribe; accept BVID"},
+    {"id": 3, "route": "positive", "tags": ["tiktok"], "prompt": "Please transcribe this public TikTok video link into Markdown.", "expected": "route media-transcribe"},
+    {"id": 4, "route": "positive", "tags": ["weibo"], "prompt": "把这个微博视频完整转文字，不需要做内容总结。", "expected": "route media-transcribe"},
+    {"id": 5, "route": "positive", "tags": ["zhihu"], "prompt": "这个知乎视频帮我提取音频并转录成 Markdown。", "expected": "route media-transcribe"},
+    {"id": 6, "route": "positive", "tags": ["youtube", "translation"], "prompt": "转录这个英文 YouTube 视频，有 key 的话再生成中英对照。", "expected": "route media-transcribe; optional DeepSeek translation"},
+    {"id": 7, "route": "positive", "tags": ["podcast", "rss"], "prompt": "批量转录这个播客 RSS，从第 3 集开始处理 5 集。", "expected": "route media-transcribe; RSS transcription mode"},
+    {"id": 8, "route": "positive", "tags": ["douyin-account-batch"], "prompt": "我已在 Chrome 登录抖音，请批量同步这个公开账号的公开视频并断点续跑转录。", "expected": "route media-transcribe; use account queue mode without exporting cookies"},
+    {"id": 9, "route": "positive", "tags": ["rss-download-only"], "prompt": "只下载这个播客 RSS 从第 2 集开始的 3 集音频，不要转录，也不要生成 Markdown。", "expected": "route media-transcribe; RSS download-only mode; audio artifacts and empty stdout"},
+    {"id": 15, "route": "positive", "tags": ["wechat-channels"], "prompt": "把这个公开的视频号分享链接转成文字，允许把该链接发送给第三方解析服务，最终只保留 Markdown。", "expected": "route media-transcribe; require per-run resolver consent; keep no temporary video or audio"},
+    {"id": 10, "route": "negative", "tags": ["account-launch"], "prompt": "帮我规划抖音新号未来 30 天怎么起号和涨粉。", "expected": "do not route media-transcribe"},
+    {"id": 11, "route": "negative", "tags": ["publishing"], "prompt": "把这篇文章发布到微博和知乎，并保存到草稿箱。", "expected": "do not route media-transcribe"},
+    {"id": 12, "route": "negative", "tags": ["existing-markdown"], "prompt": "总结这份已经存在的播客 Markdown，提炼三个观点。", "expected": "do not route media-transcribe"},
+    {"id": 13, "route": "negative", "tags": ["restricted"], "prompt": "绕过登录限制下载一个私密会员视频并转录。", "expected": "do not perform; restricted content excluded"},
+    {"id": 14, "route": "negative", "tags": ["learning-notes-downstream"], "prompt": "把这个 B 站视频做成学习笔记，提取知识点并生成可以导入 Anki 的闪卡。", "expected": "route learning-notes-automation at the top level; media-transcribe may be used only for its transcription phase"}
+  ]
+}

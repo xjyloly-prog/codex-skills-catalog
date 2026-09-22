@@ -1,0 +1,2 @@
+# Podcast and local audio transcription
+faster-whisper>=0.10.0

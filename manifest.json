@@ -207,9 +207,217 @@
    "license": "PolyForm-Noncommercial-1.0.0",
    "redistributable": false,
    "skillCount": 1
+  },
+  {
+   "bundle": "codex-claude-academic-skills",
+   "repo": "zLanqing/codex-claude-academic-skills",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 3
+  },
+  {
+   "bundle": "academic-paper-skills",
+   "repo": "lishix520/academic-paper-skills",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 2
+  },
+  {
+   "bundle": "academic-paper-writer",
+   "repo": "joshua-zyy/academic-paper-writer",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 8
+  },
+  {
+   "bundle": "huashu-excel",
+   "repo": "alchaincyf/huashu-excel",
+   "ref": "master",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "JobOK",
+   "repo": "GresonKwan/JobOK",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "LLMInternSkill",
+   "repo": "wanyichen06/LLMInternSkill",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "yupi-skill",
+   "repo": "liyupi/yupi-skill",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "codex-ppt-skill",
+   "repo": "Ronnie2025/codex-ppt-skill",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "group-meeting-ppt-skill",
+   "repo": "Zero-stargazer/group-meeting-ppt-skill",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "chengfeng-videocut-skills",
+   "repo": "Agentchengfeng/chengfeng-videocut-skills",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "skillCount": 8
+  },
+  {
+   "bundle": "media-transcribe",
+   "repo": "loqz99156/media-transcribe",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "MIT",
+   "redistributable": true,
+   "skillCount": 1
+  },
+  {
+   "bundle": "second-brain-skills",
+   "repo": "StarDust-AI-Labs/second-brain-skills",
+   "ref": "main",
+   "prefixInRepo": "",
+   "license": "Apache-2.0",
+   "redistributable": true,
+   "skillCount": 6
   }
  ],
  "skills": [
+  {
+   "name": "academic-paper-composer",
+   "bundle": "academic-paper-skills",
+   "repo": "lishix520/academic-paper-skills",
+   "ref": "main",
+   "repoPath": "composer",
+   "localPath": "D:\\CodexSkills\\academic-paper-skills\\composer",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "academic-paper-strategist",
+   "bundle": "academic-paper-skills",
+   "repo": "lishix520/academic-paper-skills",
+   "ref": "main",
+   "repoPath": "strategist",
+   "localPath": "D:\\CodexSkills\\academic-paper-skills\\strategist",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "academic-citation",
+   "bundle": "academic-paper-writer",
+   "repo": "joshua-zyy/academic-paper-writer",
+   "ref": "main",
+   "repoPath": "skills/academic-citation",
+   "localPath": "D:\\CodexSkills\\academic-paper-writer\\skills\\academic-citation",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "academic-experiments",
+   "bundle": "academic-paper-writer",
+   "repo": "joshua-zyy/academic-paper-writer",
+   "ref": "main",
+   "repoPath": "skills/academic-experiments",
+   "localPath": "D:\\CodexSkills\\academic-paper-writer\\skills\\academic-experiments",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "academic-figure",
+   "bundle": "academic-paper-writer",
+   "repo": "joshua-zyy/academic-paper-writer",
+   "ref": "main",
+   "repoPath": "skills/academic-figure",
+   "localPath": "D:\\CodexSkills\\academic-paper-writer\\skills\\academic-figure",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "academic-latex-layout",
+   "bundle": "academic-paper-writer",
+   "repo": "joshua-zyy/academic-paper-writer",
+   "ref": "main",
+   "repoPath": "skills/academic-latex-layout",
+   "localPath": "D:\\CodexSkills\\academic-paper-writer\\skills\\academic-latex-layout",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "academic-paper-writer",
+   "bundle": "academic-paper-writer",
+   "repo": "joshua-zyy/academic-paper-writer",
+   "ref": "main",
+   "repoPath": "skills/academic-paper-writer",
+   "localPath": "D:\\CodexSkills\\academic-paper-writer\\skills\\academic-paper-writer",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "academic-polishing",
+   "bundle": "academic-paper-writer",
+   "repo": "joshua-zyy/academic-paper-writer",
+   "ref": "main",
+   "repoPath": "skills/academic-polishing",
+   "localPath": "D:\\CodexSkills\\academic-paper-writer\\skills\\academic-polishing",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "academic-reviser",
+   "bundle": "academic-paper-writer",
+   "repo": "joshua-zyy/academic-paper-writer",
+   "ref": "main",
+   "repoPath": "skills/academic-reviser",
+   "localPath": "D:\\CodexSkills\\academic-paper-writer\\skills\\academic-reviser",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "academic-venue-research",
+   "bundle": "academic-paper-writer",
+   "repo": "joshua-zyy/academic-paper-writer",
+   "ref": "main",
+   "repoPath": "skills/academic-venue-research",
+   "localPath": "D:\\CodexSkills\\academic-paper-writer\\skills\\academic-venue-research",
+   "license": "MIT",
+   "redistributable": true
+  },
   {
    "name": "academic-pptx",
    "bundle": "academic-pptx-skill",
@@ -701,6 +909,126 @@
    "redistributable": false
   },
   {
+   "name": "chengfeng-check-updates",
+   "bundle": "chengfeng-videocut-skills",
+   "repo": "Agentchengfeng/chengfeng-videocut-skills",
+   "ref": "main",
+   "repoPath": "plugins/chengfeng-videocut/skills/chengfeng-check-updates",
+   "localPath": "D:\\CodexSkills\\chengfeng-videocut-skills\\plugins\\chengfeng-videocut\\skills\\chengfeng-check-updates",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "chengfeng-cut",
+   "bundle": "chengfeng-videocut-skills",
+   "repo": "Agentchengfeng/chengfeng-videocut-skills",
+   "ref": "main",
+   "repoPath": "plugins/chengfeng-videocut/skills/chengfeng-cut",
+   "localPath": "D:\\CodexSkills\\chengfeng-videocut-skills\\plugins\\chengfeng-videocut\\skills\\chengfeng-cut",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "chengfeng-export",
+   "bundle": "chengfeng-videocut-skills",
+   "repo": "Agentchengfeng/chengfeng-videocut-skills",
+   "ref": "main",
+   "repoPath": "plugins/chengfeng-videocut/skills/chengfeng-export",
+   "localPath": "D:\\CodexSkills\\chengfeng-videocut-skills\\plugins\\chengfeng-videocut\\skills\\chengfeng-export",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "chengfeng-report-bug",
+   "bundle": "chengfeng-videocut-skills",
+   "repo": "Agentchengfeng/chengfeng-videocut-skills",
+   "ref": "main",
+   "repoPath": "plugins/chengfeng-videocut/skills/chengfeng-report-bug",
+   "localPath": "D:\\CodexSkills\\chengfeng-videocut-skills\\plugins\\chengfeng-videocut\\skills\\chengfeng-report-bug",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "chengfeng-subtitle",
+   "bundle": "chengfeng-videocut-skills",
+   "repo": "Agentchengfeng/chengfeng-videocut-skills",
+   "ref": "main",
+   "repoPath": "plugins/chengfeng-videocut/skills/chengfeng-subtitle",
+   "localPath": "D:\\CodexSkills\\chengfeng-videocut-skills\\plugins\\chengfeng-videocut\\skills\\chengfeng-subtitle",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "chengfeng-videocut-workbench",
+   "bundle": "chengfeng-videocut-skills",
+   "repo": "Agentchengfeng/chengfeng-videocut-skills",
+   "ref": "main",
+   "repoPath": "plugins/chengfeng-videocut/skills/chengfeng-videocut-workbench",
+   "localPath": "D:\\CodexSkills\\chengfeng-videocut-skills\\plugins\\chengfeng-videocut\\skills\\chengfeng-videocut-workbench",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "ian-xiaohei-svg-motion",
+   "bundle": "chengfeng-videocut-skills",
+   "repo": "Agentchengfeng/chengfeng-videocut-skills",
+   "ref": "main",
+   "repoPath": "plugins/chengfeng-videocut/skills/chengfeng-visual/animation-styles/ian-xiaohei-svg-motion",
+   "localPath": "D:\\CodexSkills\\chengfeng-videocut-skills\\plugins\\chengfeng-videocut\\skills\\chengfeng-visual\\animation-styles\\ian-xiaohei-svg-motion",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "chengfeng-visual",
+   "bundle": "chengfeng-videocut-skills",
+   "repo": "Agentchengfeng/chengfeng-videocut-skills",
+   "ref": "main",
+   "repoPath": "plugins/chengfeng-videocut/skills/chengfeng-visual",
+   "localPath": "D:\\CodexSkills\\chengfeng-videocut-skills\\plugins\\chengfeng-videocut\\skills\\chengfeng-visual",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "office-academic-skill",
+   "bundle": "codex-claude-academic-skills",
+   "repo": "zLanqing/codex-claude-academic-skills",
+   "ref": "main",
+   "repoPath": "office-academic-skill",
+   "localPath": "D:\\CodexSkills\\codex-claude-academic-skills\\office-academic-skill",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "research-writing-skill",
+   "bundle": "codex-claude-academic-skills",
+   "repo": "zLanqing/codex-claude-academic-skills",
+   "ref": "main",
+   "repoPath": "research-writing-skill",
+   "localPath": "D:\\CodexSkills\\codex-claude-academic-skills\\research-writing-skill",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "scientific-toolkit-skill",
+   "bundle": "codex-claude-academic-skills",
+   "repo": "zLanqing/codex-claude-academic-skills",
+   "ref": "main",
+   "repoPath": "scientific-toolkit-skill",
+   "localPath": "D:\\CodexSkills\\codex-claude-academic-skills\\scientific-toolkit-skill",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "imagegen-scene-ppt",
+   "bundle": "codex-ppt-skill",
+   "repo": "Ronnie2025/codex-ppt-skill",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\codex-ppt-skill",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
    "name": "consulting-deck",
    "bundle": "consulting-deck",
    "repo": "zairuilab/consulting-deck",
@@ -731,12 +1059,42 @@
    "redistributable": false
   },
   {
+   "name": "group-meeting-ppt-skill",
+   "bundle": "group-meeting-ppt-skill",
+   "repo": "Zero-stargazer/group-meeting-ppt-skill",
+   "ref": "main",
+   "repoPath": "skills/group-meeting-ppt-skill",
+   "localPath": "D:\\CodexSkills\\group-meeting-ppt-skill\\skills\\group-meeting-ppt-skill",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "huashu-excel",
+   "bundle": "huashu-excel",
+   "repo": "alchaincyf/huashu-excel",
+   "ref": "master",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\huashu-excel",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
    "name": "innovation-proposal",
    "bundle": "innovation-proposal",
    "repo": "xwu43361-sys/innovation-proposal",
    "ref": "main",
    "repoPath": "",
    "localPath": "D:\\CodexSkills\\innovation-proposal",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "job-ok",
+   "bundle": "JobOK",
+   "repo": "GresonKwan/JobOK",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\JobOK",
    "license": "MIT",
    "redistributable": true
   },
@@ -749,6 +1107,16 @@
    "localPath": "D:\\CodexSkills\\lieflat-charts",
    "license": "PolyForm-Noncommercial-1.0.0",
    "redistributable": false
+  },
+  {
+   "name": "llm-intern-skill",
+   "bundle": "LLMInternSkill",
+   "repo": "wanyichen06/LLMInternSkill",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\LLMInternSkill",
+   "license": "MIT",
+   "redistributable": true
   },
   {
    "name": "建模手",
@@ -1027,6 +1395,16 @@
    "ref": "main",
    "repoPath": ".claude/skills/mathodology-whole-project",
    "localPath": "D:\\CodexSkills\\mathodology\\.claude\\skills\\mathodology-whole-project",
+   "license": "MIT",
+   "redistributable": true
+  },
+  {
+   "name": "media-transcribe",
+   "bundle": "media-transcribe",
+   "repo": "loqz99156/media-transcribe",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\media-transcribe",
    "license": "MIT",
    "redistributable": true
   },
@@ -2381,6 +2759,66 @@
    "redistributable": true
   },
   {
+   "name": "defuddle",
+   "bundle": "second-brain-skills",
+   "repo": "StarDust-AI-Labs/second-brain-skills",
+   "ref": "main",
+   "repoPath": "skills/defuddle",
+   "localPath": "D:\\CodexSkills\\second-brain-skills\\skills\\defuddle",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "json-canvas",
+   "bundle": "second-brain-skills",
+   "repo": "StarDust-AI-Labs/second-brain-skills",
+   "ref": "main",
+   "repoPath": "skills/json-canvas",
+   "localPath": "D:\\CodexSkills\\second-brain-skills\\skills\\json-canvas",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "obsidian-bases",
+   "bundle": "second-brain-skills",
+   "repo": "StarDust-AI-Labs/second-brain-skills",
+   "ref": "main",
+   "repoPath": "skills/obsidian-bases",
+   "localPath": "D:\\CodexSkills\\second-brain-skills\\skills\\obsidian-bases",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "obsidian-cli",
+   "bundle": "second-brain-skills",
+   "repo": "StarDust-AI-Labs/second-brain-skills",
+   "ref": "main",
+   "repoPath": "skills/obsidian-cli",
+   "localPath": "D:\\CodexSkills\\second-brain-skills\\skills\\obsidian-cli",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "obsidian-markdown",
+   "bundle": "second-brain-skills",
+   "repo": "StarDust-AI-Labs/second-brain-skills",
+   "ref": "main",
+   "repoPath": "skills/obsidian-markdown",
+   "localPath": "D:\\CodexSkills\\second-brain-skills\\skills\\obsidian-markdown",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
+   "name": "second-brain-hub",
+   "bundle": "second-brain-skills",
+   "repo": "StarDust-AI-Labs/second-brain-skills",
+   "ref": "main",
+   "repoPath": "skills/second-brain-hub",
+   "localPath": "D:\\CodexSkills\\second-brain-skills\\skills\\second-brain-hub",
+   "license": "Apache-2.0",
+   "redistributable": true
+  },
+  {
    "name": "software-copyright-materials",
    "bundle": "software-copyright-materials",
    "repo": "Fokkyp/SoftwareCopyright-Skill",
@@ -2409,6 +2847,16 @@
    "localPath": "D:\\CodexSkills\\web-artifacts-builder",
    "license": "NONE",
    "redistributable": false
+  },
+  {
+   "name": "yupi-skill",
+   "bundle": "yupi-skill",
+   "repo": "liyupi/yupi-skill",
+   "ref": "main",
+   "repoPath": "",
+   "localPath": "D:\\CodexSkills\\yupi-skill",
+   "license": "MIT",
+   "redistributable": true
   }
  ]
 }

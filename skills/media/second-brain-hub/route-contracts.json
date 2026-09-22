@@ -1,0 +1,310 @@
+{
+  "schema_version": "3.0",
+  "source_of_truth": "skills/",
+  "global_preflight": [
+    {
+      "id": "vault-config",
+      "applies_to": "vault-scenes",
+      "evidence": "vault_config=pass after an Obsidian Vault or Markdown workspace path is confirmed"
+    },
+    {
+      "id": "intent-confirmed",
+      "applies_to": "all",
+      "evidence": "intent is classified"
+    }
+  ],
+  "write_preflight": [
+    {
+      "id": "target-path",
+      "applies_to": "write, update",
+      "evidence": "target_path is not null and is not the vault root"
+    },
+    {
+      "id": "destination-or-delete-confirmation",
+      "applies_to": "move-or-delete",
+      "evidence": "target_path is not the vault root, or the user explicitly confirmed deletion"
+    },
+    {
+      "id": "template-ready",
+      "applies_to": "write",
+      "evidence": "final_markdown and required frontmatter fields are present"
+    },
+    {
+      "id": "write-allowed",
+      "applies_to": "write, update, move-or-delete",
+      "evidence": "write_allowed=true"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "inspiration",
+      "intent": "灵感速记",
+      "mode": "write",
+      "requires_vault": true,
+      "step_order": [
+        "hub.target-routing",
+        "capture-criteria",
+        "obsidian-markdown",
+        "obsidian-cli/create"
+      ],
+      "required_steps": [
+        "hub.target-routing",
+        "obsidian-markdown",
+        "obsidian-cli/create"
+      ],
+      "conditional_steps": [
+        {
+          "id": "capture-criteria",
+          "run_when": "用户不确定灵感是否值得保留",
+          "skip_evidence": "灵感自带个人价值，用户未表达保留犹豫"
+        }
+      ],
+      "progress_map": [
+        { "display_id": "target-routing", "label": "确认归属", "kind": "required", "source_steps": ["hub.target-routing"] },
+        { "display_id": "value-check", "label": "价值判断", "kind": "conditional", "source_steps": ["capture-criteria"] },
+        { "display_id": "render-note", "label": "渲染模板", "kind": "required", "source_steps": ["obsidian-markdown"] },
+        { "display_id": "save-archive", "label": "写入归档", "kind": "required", "source_steps": ["obsidian-cli/create"] }
+      ],
+      "required_outputs": [
+        "target_path",
+        "final_markdown"
+      ]
+    },
+    {
+      "id": "external-save",
+      "intent": "保存外源",
+      "mode": "write",
+      "requires_vault": true,
+      "step_order": [
+        "defuddle",
+        "capture-criteria",
+        "para-system",
+        "progressive-summarization(L1)",
+        "obsidian-markdown",
+        "obsidian-cli/create"
+      ],
+      "required_steps": [
+        "defuddle",
+        "capture-criteria",
+        "para-system",
+        "progressive-summarization(L1)",
+        "obsidian-markdown",
+        "obsidian-cli/create"
+      ],
+      "conditional_steps": [],
+      "progress_map": [
+        { "display_id": "fetch-content", "label": "抓取内容", "kind": "required", "source_steps": ["defuddle"] },
+        { "display_id": "value-check", "label": "价值判断", "kind": "required", "source_steps": ["capture-criteria"] },
+        { "display_id": "route-folder", "label": "确认归档目录", "kind": "required", "source_steps": ["para-system"] },
+        { "display_id": "distill-points", "label": "提炼要点", "kind": "required", "source_steps": ["progressive-summarization(L1)"] },
+        { "display_id": "render-note", "label": "渲染模板", "kind": "required", "source_steps": ["obsidian-markdown"] },
+        { "display_id": "save-receipt", "label": "写入归档", "kind": "required", "source_steps": ["obsidian-cli/create"] }
+      ],
+      "required_outputs": [
+        "keep_decision=true",
+        "target_folder",
+        "distilled_excerpt",
+        "final_markdown"
+      ]
+    },
+    {
+      "id": "distill",
+      "intent": "提炼加工",
+      "mode": "update",
+      "requires_vault": true,
+      "step_order": [
+        "obsidian-cli/search",
+        "obsidian-cli/read",
+        "progressive-summarization",
+        "obsidian-cli/edit"
+      ],
+      "required_steps": [
+        "obsidian-cli/search",
+        "obsidian-cli/read",
+        "progressive-summarization",
+        "obsidian-cli/edit"
+      ],
+      "conditional_steps": [],
+      "progress_map": [
+        { "display_id": "locate-note", "label": "读取笔记", "kind": "required", "source_steps": ["obsidian-cli/search", "obsidian-cli/read"] },
+        { "display_id": "layered-distill", "label": "分层提炼并标亮重点", "kind": "required", "source_steps": ["progressive-summarization"] },
+        { "display_id": "write-back", "label": "回写笔记", "kind": "required", "source_steps": ["obsidian-cli/edit"] }
+      ],
+      "required_outputs": [
+        "selected_note",
+        "distill_level",
+        "updated_markdown"
+      ]
+    },
+    {
+      "id": "create",
+      "intent": "创作启动",
+      "mode": "write",
+      "requires_vault": true,
+      "step_order": [
+        "diverge-converge",
+        "obsidian-cli/search",
+        "intermediate-packets",
+        "progressive-summarization(L2)",
+        "creative-workflow",
+        "obsidian-markdown",
+        "obsidian-cli/create"
+      ],
+      "required_steps": [
+        "obsidian-cli/search",
+        "intermediate-packets",
+        "creative-workflow",
+        "obsidian-markdown",
+        "obsidian-cli/create"
+      ],
+      "conditional_steps": [
+        {
+          "id": "diverge-converge",
+          "run_when": "用户明确表达持续收集、方向过多、无法收束、完美主义无法交付或项目长期停滞",
+          "skip_evidence": "未检测到发散或聚合阻塞信号，由 creative-workflow 完成常规创作阶段诊断"
+        },
+        {
+          "id": "progressive-summarization(L2)",
+          "run_when": "任一选中素材的 distill_level 小于 2",
+          "skip_evidence": "所有选中素材的 distill_level 大于或等于 2"
+        }
+      ],
+      "progress_map": [
+        { "display_id": "clarify-topic", "label": "明确主题", "kind": "conditional", "source_steps": ["diverge-converge"] },
+        { "display_id": "collect-material", "label": "检索素材", "kind": "required", "source_steps": ["obsidian-cli/search", "intermediate-packets"] },
+        { "display_id": "deepen-material", "label": "深化素材至 L2", "kind": "conditional", "source_steps": ["progressive-summarization(L2)"] },
+        { "display_id": "build-outline", "label": "搭建大纲", "kind": "required", "source_steps": ["creative-workflow"] },
+        { "display_id": "form-artifact", "label": "形成创作产物", "kind": "required", "source_steps": ["obsidian-markdown"] },
+        { "display_id": "save-archive", "label": "写入归档", "kind": "required", "source_steps": ["obsidian-cli/create"] }
+      ],
+      "required_outputs": [
+        "usable_packets",
+        "outline_or_next_artifact",
+        "hemingway_bridge",
+        "target_path"
+      ]
+    },
+    {
+      "id": "inbox",
+      "intent": "收件箱处理",
+      "mode": "move-or-delete",
+      "requires_vault": true,
+      "step_order": [
+        "obsidian-cli/list",
+        "capture-criteria",
+        "para-system",
+        "obsidian-cli/move-or-delete"
+      ],
+      "required_steps": [
+        "obsidian-cli/list",
+        "para-system",
+        "obsidian-cli/move-or-delete"
+      ],
+      "conditional_steps": [
+        {
+          "id": "capture-criteria",
+          "run_when": "条目超过 5 条且用户确认批量建议模式",
+          "skip_evidence": "逐条处理或用户未确认批量建议模式"
+        }
+      ],
+      "progress_map": [
+        { "display_id": "scan-inbox", "label": "扫描收件箱", "kind": "required", "source_steps": ["obsidian-cli/list"] },
+        { "display_id": "classify-items", "label": "逐条分类", "kind": "conditional", "source_steps": ["capture-criteria"] },
+        { "display_id": "route-items", "label": "归类到目录", "kind": "required", "source_steps": ["para-system"] },
+        { "display_id": "apply-changes", "label": "移动或删除", "kind": "required", "source_steps": ["obsidian-cli/move-or-delete"] }
+      ],
+      "required_outputs": [
+        "inbox_preview",
+        "target_path_or_delete_confirmation"
+      ]
+    },
+    {
+      "id": "review",
+      "intent": "回顾整理",
+      "mode": "write",
+      "requires_vault": true,
+      "step_order": [
+        "obsidian-cli/list-search",
+        "knowledge-lifecycle",
+        "intermediate-packets",
+        "obsidian-markdown",
+        "obsidian-cli/create"
+      ],
+      "required_steps": [
+        "obsidian-cli/list-search",
+        "knowledge-lifecycle",
+        "obsidian-markdown",
+        "obsidian-cli/create"
+      ],
+      "conditional_steps": [
+        {
+          "id": "intermediate-packets",
+          "run_when": "周月回顾或项目收尾中发现可跨项目复用的过程产物、落选素材或最终成果",
+          "skip_evidence": "本次回顾未发现需要回收的可复用素材"
+        }
+      ],
+      "progress_map": [
+        { "display_id": "collect-notes", "label": "收集周期笔记", "kind": "required", "source_steps": ["obsidian-cli/list-search"] },
+        { "display_id": "summarize-themes", "label": "归纳主题", "kind": "required", "source_steps": ["knowledge-lifecycle"] },
+        { "display_id": "recycle-material", "label": "回收可复用素材", "kind": "conditional", "source_steps": ["intermediate-packets"] },
+        { "display_id": "render-review", "label": "生成回顾", "kind": "required", "source_steps": ["obsidian-markdown"] },
+        { "display_id": "save-archive", "label": "写入归档", "kind": "required", "source_steps": ["obsidian-cli/create"] }
+      ],
+      "required_outputs": [
+        "review_scope",
+        "review_findings",
+        "final_markdown",
+        "target_path"
+      ]
+    },
+    {
+      "id": "query",
+      "intent": "探索查询",
+      "mode": "read",
+      "requires_vault": true,
+      "step_order": [
+        "obsidian-cli/search",
+        "twelve-favorite-problems"
+      ],
+      "required_steps": [
+        "obsidian-cli/search"
+      ],
+      "conditional_steps": [
+        {
+          "id": "twelve-favorite-problems",
+          "run_when": "hub-state.json 中存在 twelve_problems",
+          "skip_evidence": "未配置 twelve_problems"
+        }
+      ],
+      "progress_map": [
+        { "display_id": "search-vault", "label": "检索知识库", "kind": "required", "source_steps": ["obsidian-cli/search"] },
+        { "display_id": "match-problems", "label": "关联长期问题", "kind": "conditional", "source_steps": ["twelve-favorite-problems"] }
+      ],
+      "required_outputs": [
+        "search_results"
+      ]
+    },
+    {
+      "id": "diagnosis",
+      "intent": "系统诊断",
+      "mode": "advisory",
+      "requires_vault": false,
+      "step_order": [
+        "second-brain-diagnosis"
+      ],
+      "required_steps": [
+        "second-brain-diagnosis"
+      ],
+      "conditional_steps": [],
+      "progress_map": [
+        { "display_id": "diagnose-advice", "label": "采集现状、定位瓶颈并给出建议", "kind": "required", "source_steps": ["second-brain-diagnosis"] }
+      ],
+      "required_outputs": [
+        "bottleneck_stage",
+        "diagnosis_evidence",
+        "recommended_scene",
+        "next_experiment"
+      ]
+    }
+  ]
+}
