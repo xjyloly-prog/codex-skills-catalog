@@ -1,0 +1,4 @@
+-r requirements/sensevoice.txt
+-r requirements/whisper.txt
+-r requirements/downloaders.txt
+-r requirements/yuanbao.txt

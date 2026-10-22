@@ -1,0 +1,34 @@
+{
+  "id": "executive-classic",
+  "name": "Executive Classic",
+  "mode": "light",
+  "colors": {
+    "paper": "#F8FAFC",
+    "surface": "#FFFFFF",
+    "ink": "#071C33",
+    "navy": "#0B2A4A",
+    "accent": "#1769E0",
+    "muted": "#667384",
+    "line": "#D8E0E7",
+    "soft": "#EEF3F7",
+    "risk": "#C9483B",
+    "positive": "#2F7D5B"
+  },
+  "fonts": {
+    "zh_heading": ["PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC"],
+    "zh_body": ["PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC"],
+    "latin": ["Aptos", "Arial", "Helvetica Neue"]
+  },
+  "grid": {
+    "columns": 12,
+    "margin_in": 0.55,
+    "safe_edge_in": 0.4,
+    "base_spacing_pt": 4
+  },
+  "effects": {
+    "shadow": "none",
+    "radius": 0,
+    "gradient": "cover-only-subtle",
+    "line_pt": 0.75
+  }
+}

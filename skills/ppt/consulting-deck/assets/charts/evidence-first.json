@@ -1,0 +1,50 @@
+{
+  "id": "evidence-first",
+  "description": "Neutral analytical chart tokens inspired by public consulting research graphics",
+  "colors": {
+    "ink": "#111820",
+    "navy": "#0B2D52",
+    "blue": "#1687C7",
+    "sky": "#67C5E8",
+    "pale": "#E8EDF2",
+    "muted": "#66717D",
+    "line": "#C7CED6",
+    "negative": "#D94B3D",
+    "positive": "#3C8C6E",
+    "paper": "#FFFFFF"
+  },
+  "axes": {
+    "baseline_pt": 0.8,
+    "gridline_pt": 0.5,
+    "gridline_color": "#E8EDF2",
+    "label_color": "#66717D",
+    "prefer_zero_baseline_for_bars": true
+  },
+  "type_px": {
+    "chart_title": 18,
+    "measure_subtitle": 13,
+    "axis_label": 11,
+    "data_label": 12,
+    "annotation": 14,
+    "source": 10
+  },
+  "annotation": {
+    "primary_max": 1,
+    "secondary_max": 2,
+    "prefer_direct_labels": true,
+    "use_brackets_for_spans": true,
+    "use_threshold_lines_for_decision_boundaries": true
+  },
+  "density": {
+    "minimum_exhibit_canvas_share": 0.55,
+    "maximum_exhibit_canvas_share": 0.78,
+    "maximum_routine_series": 5,
+    "maximum_routine_categories": 12
+  },
+  "effects": {
+    "shadow": false,
+    "gradient": false,
+    "three_dimensional": false,
+    "rounded_chart_container": false
+  }
+}

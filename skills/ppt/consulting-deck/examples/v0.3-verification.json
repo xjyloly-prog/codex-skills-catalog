@@ -1,0 +1,35 @@
+{
+  "version": "0.3.0",
+  "verified_at": "2026-09-19",
+  "unit_tests": {"python": 17, "node": 7, "failed": 0},
+  "native_export_regression": {
+    "runtime": "OpenAI host Artifact Tool",
+    "decks": 3,
+    "slides": 14,
+    "native_charts": 19,
+    "full_slide_images": 0,
+    "embedded_workbooks_reconciled": 19,
+    "chart_cache_reconciliation": "passed",
+    "package_integrity": "passed",
+    "geometry_and_fonts": "passed",
+    "runtime_reimport": "passed",
+    "all_slide_render_review": "passed",
+    "canonical_project_delivery_gates": {"banking": "passed", "ai": "passed"}
+  },
+  "tested_behaviors": [
+    "Missing values, NaN, inconsistent units and category/value lengths are rejected.",
+    "Source-rounded survey totals are preserved rather than normalized.",
+    "Wide and annotation-rail variants retain the same source data.",
+    "Visible horizontal category order follows the canonical source order.",
+    "Shared-scale small multiples use a common percentage range and ticks.",
+    "Changed chart caches, wrong workbooks, external ranges and stale source/artifact hashes block verification.",
+    "Empty, failed, contradictory and incomplete check reports do not authorize delivery."
+  ],
+  "limits": [
+    "Private regression reports, source data and generated acceptance decks are not distributed here.",
+    "The downloadable public demos preserve the previously accepted design and use synthetic data.",
+    "Manual editing inside Microsoft PowerPoint and WPS was not tested.",
+    "Other authoring runtimes need separate adaptation and validation.",
+    "Automated checks do not prove source extraction accuracy, analytical interpretation or visual quality."
+  ]
+}

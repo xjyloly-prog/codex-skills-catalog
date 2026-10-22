@@ -1,0 +1,19 @@
+{
+  "id": "neutral",
+  "name": "Neutral",
+  "enabled_by_default": true,
+  "display_name": "",
+  "author_mark": "",
+  "logo": null,
+  "footer": {
+    "show_brand": false,
+    "show_page_number": true,
+    "show_source": true,
+    "confidentiality_label": ""
+  },
+  "restrictions": [
+    "Do not add the Skill author mark",
+    "Do not add a Powered by watermark",
+    "Do not reuse a source publisher logo as the deck owner logo"
+  ]
+}

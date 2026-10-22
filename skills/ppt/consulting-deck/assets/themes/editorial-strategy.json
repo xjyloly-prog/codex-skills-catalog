@@ -1,0 +1,35 @@
+{
+  "id": "editorial-strategy",
+  "name": "Editorial Strategy",
+  "mode": "light",
+  "colors": {
+    "paper": "#F5F4F0",
+    "surface": "#FBFBF8",
+    "ink": "#0B2037",
+    "navy": "#153653",
+    "accent": "#2B65D9",
+    "muted": "#6E747B",
+    "line": "#D7D8D4",
+    "soft": "#E8EBED",
+    "signal": "#B35C3D"
+  },
+  "fonts": {
+    "zh_heading": ["Songti SC", "Noto Serif CJK SC", "Source Han Serif SC"],
+    "zh_body": ["PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC"],
+    "latin_heading": ["Aptos Display", "Georgia", "Times New Roman"],
+    "latin_body": ["Aptos", "Arial", "Helvetica Neue"]
+  },
+  "grid": {
+    "columns": 12,
+    "margin_in": 0.62,
+    "safe_edge_in": 0.44,
+    "base_spacing_pt": 4
+  },
+  "effects": {
+    "shadow": "none",
+    "radius": 0,
+    "gradient": "none",
+    "line_pt": 0.6,
+    "paper_texture": "optional-subtle"
+  }
+}

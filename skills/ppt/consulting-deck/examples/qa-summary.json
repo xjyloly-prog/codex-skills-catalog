@@ -1,0 +1,54 @@
+{
+  "schema": "consulting_deck_public_example_qa.v1",
+  "reviewed_at": "2026-08-03",
+  "review_scope": "Final exported PPTX packages and all 12 slides rendered from those PPTX files",
+  "data_policy": "Synthetic demonstration data; not a real-world benchmark or forecast",
+  "examples": [
+    {
+      "id": "ai-value-realization",
+      "pptx_sha256": "44e271f9252968b37dad8296aa65a52e3a702844ba5890bee5920e817bb42790",
+      "slide_count": 6,
+      "notes_count": 6,
+      "native_chart_count": 4,
+      "native_table_count": 0,
+      "possible_image_only_slides": 0,
+      "package_inspection": "passed",
+      "overflow_check": "passed",
+      "all_slides_visually_reviewed": true,
+      "rubric": {
+        "decision_clarity": 5,
+        "storyline": 5,
+        "evidence": 4,
+        "visual_hierarchy": 4,
+        "consulting_craft": 4,
+        "editability": 5,
+        "consistency": 5,
+        "revision_readiness": 5,
+        "average": 4.6
+      }
+    },
+    {
+      "id": "retail-banking-growth",
+      "pptx_sha256": "36fed5cbda97c5c13282e5447466e051f9e7b3014e5e1c085e7519b447ede6b5",
+      "slide_count": 6,
+      "notes_count": 6,
+      "native_chart_count": 4,
+      "native_table_count": 0,
+      "possible_image_only_slides": 0,
+      "package_inspection": "passed",
+      "overflow_check": "passed",
+      "all_slides_visually_reviewed": true,
+      "rubric": {
+        "decision_clarity": 5,
+        "storyline": 5,
+        "evidence": 4,
+        "visual_hierarchy": 4,
+        "consulting_craft": 4,
+        "editability": 5,
+        "consistency": 5,
+        "revision_readiness": 5,
+        "average": 4.6
+      }
+    }
+  ]
+}

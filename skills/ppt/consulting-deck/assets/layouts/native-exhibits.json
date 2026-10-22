@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "canvas": {"width": 1280, "height": 720},
+  "layouts": [
+    {"id":"C14","name":"Trend","jobs":["prove","explain"],"panels":[1,1],"types":["line"],"categories":[2,16],"series":[1,4],"variants":["wide","rail"]},
+    {"id":"C15","name":"Ranked comparison","jobs":["compare","prove"],"panels":[1,1],"types":["ranking","comparison"],"categories":[2,15],"series":[1,2],"variants":["wide","rail"]},
+    {"id":"C16","name":"Composition","jobs":["compare","explain"],"panels":[1,1],"types":["stacked","survey"],"categories":[1,10],"series":[2,7],"variants":["wide","rail"]},
+    {"id":"C38","name":"Exhibit and implication","jobs":["prove","compare","explain"],"panels":[1,1],"types":["line","ranking","comparison","stacked","survey","column"],"categories":[1,15],"series":[1,7],"variants":["wide","rail"]},
+    {"id":"C39","name":"Trend and maturity","jobs":["prove","explain"],"panels":[2,2],"panel_types":[["line"],["survey","stacked"]],"categories":[1,12],"series":[1,7],"variants":["wide"]},
+    {"id":"C40","name":"Aligned survey distributions","jobs":["compare","prove"],"panels":[1,1],"types":["survey"],"categories":[3,12],"series":[2,7],"variants":["wide","rail"]},
+    {"id":"C42","name":"Dual aligned exhibits","jobs":["compare","prove","explain"],"panels":[2,2],"types":["line","ranking","comparison","stacked","survey","column"],"categories":[1,10],"series":[1,4],"variants":["wide"]},
+    {"id":"C43","name":"Small multiples","jobs":["compare","explain"],"panels":[3,6],"types":["line","column"],"categories":[2,8],"series":[1,2],"shared_scale":true,"variants":["wide"]}
+  ],
+  "copy_limits": {"title_width_units":48,"subtitle_width_units":76,"implication_width_units":100,"rail_implication_width_units":70,"panel_title_width_units":42,"category_width_units":18},
+  "note":"Capacity is a preflight estimate, not proof of rendered fit. Non-component C01–C45 layouts remain available through host-native authoring."
+}

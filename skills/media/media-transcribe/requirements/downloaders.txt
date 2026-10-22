@@ -1,0 +1,2 @@
+# Platform media acquisition
+yt-dlp>=2025.1.0
